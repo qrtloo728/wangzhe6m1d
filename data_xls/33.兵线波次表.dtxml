@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="33.兵线波次表">
+  <Sheet Name="兵线波次" FontColor="FFFFFFFF" FillColor="FF44546A">
+    <Columns>
+      <Column Name="兵线波次ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="描述" Type="System.String" WidthInCharacters="25" />
+      <Column Name="路线类型" Type="System.String" WidthInCharacters="25" />
+      <Column Name="分支兵线波次1ID" Type="System.UInt32" WidthInCharacters="25" />
+      <Column Name="分支兵线波次1概率" Type="System.Byte" WidthInCharacters="25" />
+      <Column Name="分支兵线波次2ID" Type="System.UInt32" WidthInCharacters="18" />
+      <Column Name="分支兵线波次2概率" Type="System.Byte" WidthInCharacters="14" />
+      <Column Name="分支兵线波次3ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="分支兵线波次3概率" Type="System.Byte" WidthInCharacters="14" />
+      <Column Name="分支兵线波次4ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="分支兵线波次4概率" Type="System.Byte" WidthInCharacters="14" />
+      <Column Name="分支兵线波次5ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="分支兵线波次5概率" Type="System.Byte" WidthInCharacters="14" />
+      <Column Name="下一个兵线波次ID" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="波次重复次数" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="波次重复时间" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="开启等待时间" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="间隔等待时间" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="设置刷怪间隔" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="类型" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="指定点位出生" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="士兵1ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵1数量" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵1出生点位起点" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="士兵1随机被动ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵2ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵2数量" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵2出生点位起点" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="士兵2随机被动ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵3ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵3数量" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵3出生点位起点" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="士兵3随机被动ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵4ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵4数量" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵4出生点位起点" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="士兵4随机被动ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵5ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵5数量" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="士兵5出生点位起点" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="士兵5随机被动ID" Type="System.UInt32" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+</Root>

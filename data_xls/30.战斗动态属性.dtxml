@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="30.战斗动态属性">
+  <Sheet Name="动态属性" FontColor="FFFFFFFF" FillColor="FF002060">
+    <Columns>
+      <Column Name="ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="变量类型" Type="System.String" WidthInCharacters="8" />
+      <Column Name="变量参数1" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="变量参数2" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="基础生命" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础攻击力" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础法术强度" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="基础护甲" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础抗性" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="魂值经验" Type="System.String" WidthInCharacters="8" />
+      <Column Name="复活时间" Type="System.String" WidthInCharacters="8" />
+      <Column Name="死亡可移动英雄复活时间" Type="System.String" WidthInCharacters="20" />
+      <Column Name="伤害加成" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="金币增长万分比" Type="System.UInt16" WidthInCharacters="12" />
+      <Column Name="金币自动增长" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="基础移动速度" Type="System.String" WidthInCharacters="10" />
+      <Column Name="奖励人头数" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="非自动变化" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="备注" Type="System.String" WidthInCharacters="9" />
+      <Column Name="备注2" Type="System.String" WidthInCharacters="8" />
+      <Column Name="移动备注" Type="System.String" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+</Root>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="120.27.技能印记表">
+  <Sheet Name="技能印记" FontColor="FFFFFFFF" FillColor="FF44546A">
+    <Columns>
+      <Column Name="技能印记ID" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="前置技能印记ID" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="技能印记名称" Type="System.String" WidthInCharacters="10" />
+      <Column Name="技能印记描述" Type="System.String" WidthInCharacters="10" />
+      <Column Name="技能印记动作路径" Type="System.String" WidthInCharacters="83" />
+      <Column Name="age立即执行" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="收益是否依赖印记层数" Type="System.String" WidthInCharacters="10" />
+      <Column Name="技能印记最大层数" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="技能印记消耗层数" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="技能印记触发层数" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="技能印记持续时间" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="技能印记冷却时间" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="技能印记免疫时间" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="印记触发后的免疫印记添加时间" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="技能印记自动触发" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="印记特效目标筛选" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="技能印记唯一触发层数" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="死亡自动触发" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="印记特效1路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效2路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效3路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效4路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效5路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效6路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效7路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效8路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效9路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效10路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效11路径" Type="System.String" WidthInCharacters="10" />
+      <Column Name="印记特效12路径" Type="System.String" WidthInCharacters="10" />
+    </Columns>
+  </Sheet>
+</Root>

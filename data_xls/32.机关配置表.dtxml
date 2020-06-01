@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="32.机关配置表">
+  <Sheet Name="机关配置" FontColor="FFFFFFFF" FillColor="FF003366">
+    <Columns>
+      <Column Name="配置ID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="难度" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="名称" Type="System.String" WidthInCharacters="18" />
+      <Column Name="对应地图" Type="System.String" WidthInCharacters="18" />
+      <Column Name="角色信息路径" Type="System.String" WidthInCharacters="70" />
+      <Column Name="小地图图片路径" Type="System.String" WidthInCharacters="22" />
+      <Column Name="机关类型" Type="System.String" WidthInCharacters="6" />
+      <Column Name="动态属性类型" Type="System.Int32" WidthInCharacters="6" />
+      <Column Name="线路标识" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="死亡后对线小兵波次" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能1" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能2" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能3" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="脱战生命回复" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="视野范围" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础生命" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="成长生命" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础生命回复" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="成长生命回复" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="基础攻击力" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="成长攻击力" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="基础法术强度" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="成长法术强度" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="基础护甲" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="成长护甲" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础抗性" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="成长抗性" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="基础移动速度" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="成长攻击速度" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="物理护甲穿透率" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="出生等待时间" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="魂值经验" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="金币数量" Type="System.UInt16" WidthInCharacters="8" />
+      <Column Name="动态属性配置" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="连续攻击加成" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="连续攻击加成上限" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="是否在小地图上显示图标" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="冲突标识" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="无敌方小兵增强物防" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="无敌方小兵增强魔防" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="格挡英雄普攻伤害" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="格挡英雄普攻伤害持续时间" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="无敌方小兵格挡英雄普攻伤害" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="无敌方小兵格挡英雄普攻伤害持续时间" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="格挡射程外英雄伤害" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被检测半径" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="无敌方小兵减伤百分比" Type="System.Int32" WidthInCharacters="8" />
+    </Columns>
+    <Row>
+      <Cell Name="配置ID">30001</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="名称">蓝方基地</Cell>
+      <Cell Name="对应地图">奈何桥左方基地-蓝</Cell>
+      <Cell Name="角色信息路径">Prefab_Characters/Prefab_Organ/Crystal/Crystal_JiDi_Blue_Actorinfo</Cell>
+      <Cell Name="机关类型">泉水</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="技能1">50005</Cell>
+      <Cell Name="脱战生命回复">0</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命">80000</Cell>
+      <Cell Name="成长生命">600</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="成长生命回复">0</Cell>
+      <Cell Name="基础攻击力">1000</Cell>
+      <Cell Name="成长攻击力">8</Cell>
+      <Cell Name="成长法术强度">10</Cell>
+      <Cell Name="基础护甲">1000</Cell>
+      <Cell Name="成长护甲">0</Cell>
+      <Cell Name="基础抗性">0</Cell>
+      <Cell Name="成长抗性">0</Cell>
+      <Cell Name="基础移动速度">5000</Cell>
+      <Cell Name="成长攻击速度">10</Cell>
+      <Cell Name="出生等待时间">1000</Cell>
+      <Cell Name="魂值经验">0</Cell>
+      <Cell Name="金币数量">0</Cell>
+      <Cell Name="动态属性配置">3</Cell>
+      <Cell Name="连续攻击加成">1000</Cell>
+      <Cell Name="连续攻击加成上限">10000</Cell>
+      <Cell Name="是否在小地图上显示图标">1</Cell>
+    </Row>
+    <Row>
+      <Cell Name="配置ID">30002</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="名称">红方基地</Cell>
+      <Cell Name="对应地图">奈何桥右方基地-红</Cell>
+      <Cell Name="角色信息路径">Prefab_Characters/Prefab_Organ/Crystal/Crystal_JiDi_Red_Actorinfo</Cell>
+      <Cell Name="机关类型">泉水</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="技能1">500059</Cell>
+      <Cell Name="脱战生命回复">0</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命">8000</Cell>
+      <Cell Name="成长生命">600</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="成长生命回复">0</Cell>
+      <Cell Name="基础攻击力">200</Cell>
+      <Cell Name="成长攻击力">8</Cell>
+      <Cell Name="成长法术强度">10</Cell>
+      <Cell Name="基础护甲">0</Cell>
+      <Cell Name="成长护甲">0</Cell>
+      <Cell Name="基础抗性">0</Cell>
+      <Cell Name="成长抗性">0</Cell>
+      <Cell Name="基础移动速度">5000</Cell>
+      <Cell Name="成长攻击速度">10</Cell>
+      <Cell Name="出生等待时间">1000</Cell>
+      <Cell Name="魂值经验">0</Cell>
+      <Cell Name="金币数量">0</Cell>
+      <Cell Name="动态属性配置">3</Cell>
+      <Cell Name="连续攻击加成">1000</Cell>
+      <Cell Name="连续攻击加成上限">10000</Cell>
+      <Cell Name="是否在小地图上显示图标">1</Cell>
+    </Row>
+  </Sheet>
+  <Sheet Name="塔被攻击展示" FontColor="FFFFFFFF" FillColor="FF003366">
+    <Columns>
+      <Column Name="机关类型" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="间隔时间" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="语音" Type="System.String" WidthInCharacters="21" />
+      <Column Name="特效" Type="System.String" WidthInCharacters="72" />
+      <Column Name="特效持续时间" Type="System.UInt32" WidthInCharacters="13" />
+    </Columns>
+  </Sheet>
+</Root>

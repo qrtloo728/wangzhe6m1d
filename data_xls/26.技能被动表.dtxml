@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="26.技能被动表">
+  <Sheet Name="技能被动" FontColor="FFFFFFFF" FillColor="FF44546A">
+    <Columns>
+      <Column Name="被动技能ID" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能名称" Type="System.String" WidthInCharacters="37" />
+      <Column Name="被动技能描述" Type="System.String" WidthInCharacters="28" />
+      <Column Name="词缀描述" Type="System.String" WidthInCharacters="27" />
+      <Column Name="被动技能动作路径" Type="System.String" WidthInCharacters="92" TypeInfo="BluePrint.Common.ComponentModel.ResourceSelectableAttribute(Extension:.xml,TypeDescription:AGE文件)" />
+      <Column Name="age立即执行" Type="System.Byte" WidthInCharacters="11" />
+      <Column Name="大血条显示效果" Type="System.Byte" WidthInCharacters="26" />
+      <Column Name="被动生效依赖技能" Type="System.Int32" WidthInCharacters="18" />
+      <Column Name="绑定皮肤ID" Type="System.UInt32" WidthInCharacters="18" />
+      <Column Name="冷却时间" Type="System.Int32" WidthInCharacters="19" />
+      <Column Name="被动技能类型" Type="System.String" WidthInCharacters="25" />
+      <Column Name="被动技能类型参数1" Type="System.Int32" WidthInCharacters="23" />
+      <Column Name="被动技能类型参数2" Type="System.Int32" WidthInCharacters="16" />
+      <Column Name="被动技能类型参数3" Type="System.Int32" WidthInCharacters="16" />
+      <Column Name="被动技能类型参数4" Type="System.Int32" WidthInCharacters="16" />
+      <Column Name="被动技能类型参数5" Type="System.Int32" WidthInCharacters="16" />
+      <Column Name="被动技能类型参数6" Type="System.Int32" WidthInCharacters="16" />
+      <Column Name="被动技能类型参数7" Type="System.Int32" WidthInCharacters="16" />
+      <Column Name="被动技能条件逻辑" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="被动技能条件1类型" Type="System.String" WidthInCharacters="36" />
+      <Column Name="被动技能条件1参数1" Type="System.String" WidthInCharacters="17" />
+      <Column Name="被动技能条件1参数2" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件1参数3" Type="System.Int32" WidthInCharacters="16" />
+      <Column Name="被动技能条件1参数4" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件1参数5" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="被动技能条件1参数6" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件1参数7" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件1参数8" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件2类型" Type="System.String" WidthInCharacters="45" />
+      <Column Name="被动技能条件2参数1" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件2参数2" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件2参数3" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件2参数4" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件2参数5" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件2参数6" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件2参数7" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能条件2参数8" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="被动技能暴露视野" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="不重置条件" Type="System.Byte" WidthInCharacters="9" />
+    </Columns>
+  </Sheet>
+</Root>

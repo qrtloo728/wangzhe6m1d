@@ -1,0 +1,45 @@
+<root>
+  <LevelConfig>
+    <baseData>
+      <name>hengban</name>
+      <showName>hengban</showName>
+      <width>0</width>
+      <height>30</height>
+      <MaxAcntNum>10</MaxAcntNum>
+      <MaxCamp>2</MaxCamp>
+      <DesignFile>Design</DesignFile>
+      <ArtistFile>Artist</ArtistFile>
+      <horizonMethod>10</horizonMethod>
+      <StartupBlueprints>
+        <item>Level/main_level/Blueprint/startup.gl</item>
+      </StartupBlueprints>
+    </baseData>
+    <loadingData>
+      <LoadingPicPath>
+      </LoadingPicPath>
+      <tips />
+      <showPlayHead>False</showPlayHead>
+    </loadingData>
+    <settingData>
+      <useMiniMap>False</useMiniMap>
+      <useBigMap>False</useBigMap>
+      <miniMapPath>pvp_6_small</miniMapPath>
+      <bigMapPath>
+      </bigMapPath>
+      <useCustomMinimapRes>False</useCustomMinimapRes>
+      <smallMapWidth>256</smallMapWidth>
+      <smallMapHeight>256</smallMapHeight>
+      <soulLevelGrow>False</soulLevelGrow>
+      <expLevelID>0</expLevelID>
+      <expAllocID>0</expAllocID>
+      <sightRadius>500000</sightRadius>
+      <battleDynamicID>0</battleDynamicID>
+      <singleGameRandomSeed>False</singleGameRandomSeed>
+      <aiLevel>0</aiLevel>
+    </settingData>
+    <roleConfigData>
+      <maxEquipNum>0</maxEquipNum>
+      <maxPackageNum>0</maxPackageNum>
+    </roleConfigData>
+  </LevelConfig>
+</root>

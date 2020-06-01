@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="104.局内飘字表">
+  <Sheet Name="局内飘字表" FontColor="FFFFFFFF" FillColor="FF376092">
+    <Columns>
+      <Column Name="ID" Type="System.UInt32" WidthInCharacters="7" />
+      <Column Name="文本" Type="System.String" WidthInCharacters="69" />
+      <Column Name="字号" Type="System.UInt32" WidthInCharacters="17" />
+      <Column Name="动画" Type="System.String" WidthInCharacters="24" />
+      <Column Name="显示时长" Type="System.UInt32" WidthInCharacters="18" />
+      <Column Name="自定义文本" Type="System.UInt32" WidthInCharacters="18" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="普通局内数字飘字">
+    <Columns>
+      <Column Name="类型ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="飘字类型" Type="System.String" WidthInCharacters="14" />
+      <Column Name="动画名" Type="System.String" WidthInCharacters="23" />
+      <Column Name="显示时长" Type="System.UInt32" WidthInCharacters="13" />
+      <Column Name="区分左右" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="显示正负号" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="后缀" Type="System.String" WidthInCharacters="15" />
+      <Column Name="icon偏移1" Type="System.Single" WidthInCharacters="15" />
+      <Column Name="icon偏移2" Type="System.String" WidthInCharacters="15" />
+      <Column Name="区间1阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间1缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间1字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间2阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间2缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间2字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间3阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间3缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间3字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间4阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间4缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间4字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间5阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间5缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间5字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间6阈值" Type="System.Int32" WidthInCharacters="12" />
+      <Column Name="区间6缩放" Type="System.Single" WidthInCharacters="12" />
+      <Column Name="区间6字号" Type="System.Single" WidthInCharacters="12" />
+      <Column Name="区间7阈值" Type="System.Int32" WidthInCharacters="12" />
+      <Column Name="区间7缩放" Type="System.Single" WidthInCharacters="12" />
+      <Column Name="区间7字号" Type="System.Single" WidthInCharacters="12" />
+      <Column Name="区间8阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间8缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间8字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间9阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间9缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间9字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间10阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间10缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间10字号" Type="System.Single" WidthInCharacters="10" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="多人PVE局内数字飘字">
+    <Columns>
+      <Column Name="类型ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="飘字类型" Type="System.String" WidthInCharacters="14" />
+      <Column Name="动画名" Type="System.String" WidthInCharacters="23" />
+      <Column Name="显示时长" Type="System.UInt32" WidthInCharacters="13" />
+      <Column Name="区分左右" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="显示正负号" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="后缀" Type="System.String" WidthInCharacters="15" />
+      <Column Name="icon偏移1" Type="System.Single" WidthInCharacters="15" />
+      <Column Name="icon偏移2" Type="System.String" WidthInCharacters="15" />
+      <Column Name="区间1阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间1缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间1字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间2阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间2缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间2字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间3阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间3缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间3字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间4阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间4缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间4字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间5阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间5缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间5字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间6阈值" Type="System.Int32" WidthInCharacters="12" />
+      <Column Name="区间6缩放" Type="System.Single" WidthInCharacters="12" />
+      <Column Name="区间6字号" Type="System.Single" WidthInCharacters="12" />
+      <Column Name="区间7阈值" Type="System.Int32" WidthInCharacters="12" />
+      <Column Name="区间7缩放" Type="System.Single" WidthInCharacters="12" />
+      <Column Name="区间7字号" Type="System.Single" WidthInCharacters="12" />
+      <Column Name="区间8阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间8缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间8字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间9阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间9缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间9字号" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间10阈值" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="区间10缩放" Type="System.Single" WidthInCharacters="10" />
+      <Column Name="区间10字号" Type="System.Single" WidthInCharacters="10" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="Project8局内数字飘字">
+    <Columns>
+      <Column Name="类型ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="飘字类型" Type="System.String" WidthInCharacters="12" />
+      <Column Name="动画名" Type="System.String" WidthInCharacters="16" />
+      <Column Name="显示时长" Type="System.UInt32" WidthInCharacters="16" />
+      <Column Name="区分左右" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="显示正负号" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="后缀" Type="System.String" WidthInCharacters="8" />
+      <Column Name="icon偏移1" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="icon偏移2" Type="System.String" WidthInCharacters="8" />
+      <Column Name="区间1阈值" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="区间1缩放" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间1字号" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间2阈值" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="区间2缩放" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间2字号" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间3阈值" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="区间3缩放" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间3字号" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间4阈值" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="区间4缩放" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间4字号" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间5阈值" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="区间5缩放" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间5字号" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间6阈值" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="区间6缩放" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间6字号" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间7阈值" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="区间7缩放" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间7字号" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间8阈值" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="区间8缩放" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间8字号" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间9阈值" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="区间9缩放" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间9字号" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间10阈值" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="区间10缩放" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="区间10字号" Type="System.Single" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+</Root>

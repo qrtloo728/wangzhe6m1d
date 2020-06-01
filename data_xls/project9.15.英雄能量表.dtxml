@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="project9.15.英雄能量表">
+  <Sheet Name="英雄能量" FontColor="FFFFFFFF" FillColor="FF31859C">
+    <Columns>
+      <Column Name="ID" Type="System.UInt32" WidthInCharacters="11" />
+      <Column Name="类型" Type="System.String" WidthInCharacters="22" />
+      <Column Name="备注" Type="System.String" WidthInCharacters="15" />
+      <Column Name="显示名称" Type="System.String" WidthInCharacters="11" />
+      <Column Name="回复显示" Type="System.String" WidthInCharacters="14" />
+      <Column Name="最大值显示" Type="System.String" WidthInCharacters="14" />
+      <Column Name="消耗显示" Type="System.String" WidthInCharacters="13" />
+      <Column Name="不足飘字" Type="System.String" WidthInCharacters="14" />
+      <Column Name="飘字动画" Type="System.String" WidthInCharacters="14" />
+      <Column Name="能量状态1类型" Type="System.String" WidthInCharacters="14" />
+      <Column Name="能量状态1能量条资源名" Type="System.String" WidthInCharacters="21" />
+      <Column Name="能量状态2类型" Type="System.String" WidthInCharacters="14" />
+      <Column Name="能量状态2能量条资源名" Type="System.String" WidthInCharacters="22" />
+      <Column Name="能量显示间隔" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="Zero能量效果" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="Max能量效果" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="Half能量效果" Type="System.Int32" WidthInCharacters="23" />
+      <Column Name="Zero能量变为非Zero效果" Type="System.Int32" WidthInCharacters="23" />
+      <Column Name="Max能量变为非Max效果" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="能量上限" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="回复频率" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="参数1" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="参数2" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="参数3" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="参数4" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="参数5" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="参数6" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="参数7" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="参数8" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="参数9" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="参数10" Type="System.Int32" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+</Root>

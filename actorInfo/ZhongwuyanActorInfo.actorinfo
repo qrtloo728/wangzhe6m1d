@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="Assets.Scripts.GameLogic.CActorInfo">
+  <ActorName>117_ZhongWuYan</ActorName>
+  <useMecanim>0</useMecanim>
+  <ArtPrefabLOD Type="System.String[]">
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1171_ZhongWuYan_LOD1</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1171_ZhongWuYan_LOD1</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1171_ZhongWuYan_LOD2</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1171_ZhongWuYan_LOD3</Item>
+  </ArtPrefabLOD>
+  <enemyCampUseDifferentArtPrefab>0</enemyCampUseDifferentArtPrefab>
+  <ArtLobbyShowLOD Type="System.String[]">
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1171_ZhongWuYan_Show1</Item>
+    <Item Type="System.String"></Item>
+  </ArtLobbyShowLOD>
+  <SoundBanks Type="System.String[]">
+    <Item Type="System.String">Hero_ZhongWuYan_SFX</Item>
+    <Item Type="System.String">Hero_ZhongWuYan_VO</Item>
+  </SoundBanks>
+  <SkinPrefab Type="Assets.Scripts.GameLogic.SkinElement[]">
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1172_ZhongWuYan_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1172_ZhongWuYan_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1172_ZhongWuYan_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1172_ZhongWuYan_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1172_ZhongWuYan_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1173_ZhongWuYan_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1173_ZhongWuYan_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1173_ZhongWuYan_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1173_ZhongWuYan_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1173_ZhongWuYan_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1174_ZhongWuYan_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1174_ZhongWuYan_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1174_ZhongWuYan_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1174_ZhongWuYan_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/117_ZhongWuYan/1174_ZhongWuYan_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+  </SkinPrefab>
+  <UseNewAnimaSoundType>0</UseNewAnimaSoundType>
+  <shadowHeight>2.70899</shadowHeight>
+  <AnimaSound Type="Assets.Scripts.GameLogic.AnimaSoundElement[]">
+    <Item Type="Assets.Scripts.GameLogic.AnimaSoundElement">
+      <AnimaName>Come</AnimaName>
+      <SoundName>ZhongWuYan_VO_Come</SoundName>
+      <RepeatRate>0</RepeatRate>
+      <MaxRepeatCount>0</MaxRepeatCount>
+      <NextElementIndex>0</NextElementIndex>
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.AnimaSoundElement">
+      <AnimaName>Cheer</AnimaName>
+      <SoundName>ZhongWuYan_VO_Show</SoundName>
+      <RepeatRate>0</RepeatRate>
+      <MaxRepeatCount>0</MaxRepeatCount>
+      <NextElementIndex>0</NextElementIndex>
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.AnimaSoundElement">
+      <AnimaName>Idleshow2</AnimaName>
+      <SoundName>ZhongWuYan_VO_Show</SoundName>
+      <RepeatRate>0</RepeatRate>
+      <MaxRepeatCount>0</MaxRepeatCount>
+      <NextElementIndex>0</NextElementIndex>
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.AnimaSoundElement">
+      <AnimaName>Atk3</AnimaName>
+      <SoundName>ZhongWuYan_VO_Show</SoundName>
+      <RepeatRate>0</RepeatRate>
+      <MaxRepeatCount>0</MaxRepeatCount>
+      <NextElementIndex>0</NextElementIndex>
+    </Item>
+  </AnimaSound>
+  <TransConfigs Type="Assets.Scripts.GameLogic.TransformConfig[]">
+    <Item Type="Assets.Scripts.GameLogic.TransformConfig">
+      <Offset Type="UnityEngine.Vector3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Offset>
+      <Scale>1</Scale>
+    </Item>
+  </TransConfigs>
+  <InteractiveAnimaVfx Type="Assets.Scripts.GameLogic.InteractiveAnimaVfxElement[]" />
+  <LobbySoundBanks Type="System.String[]">
+    <Item Type="System.String">Hero_ZhongWuYan_Show</Item>
+  </LobbySoundBanks>
+  <LobbyScale>1.15</LobbyScale>
+  <collisionType>2</collisionType>
+  <iCollisionCenter Type="VInt3">
+    <x>0</x>
+    <y>200</y>
+    <z>0</z>
+  </iCollisionCenter>
+  <iCollisionSize Type="VInt3">
+    <x>500</x>
+    <y>400</y>
+    <z>400</z>
+  </iCollisionSize>
+  <iBulletHeight>1200</iBulletHeight>
+  <iAttackLineHeight>4500</iAttackLineHeight>
+  <BtResourcePath></BtResourcePath>
+  <deadAgePath></deadAgePath>
+  <ActSounds Type="Assets.Scripts.GameLogic.ActSound[]">
+    <Item Type="Assets.Scripts.GameLogic.ActSound">
+      <SoundActType>0</SoundActType>
+      <ActSoundName>ZhongWuYan_VO_Move</ActSoundName>
+    </Item>
+  </ActSounds>
+  <callMonsterConfigID>0</callMonsterConfigID>
+  <hudHeight>0</hudHeight>
+  <HudType>0</HudType>
+</Root>

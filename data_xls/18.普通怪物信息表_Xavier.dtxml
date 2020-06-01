@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="18.普通怪物信息表_Xavier">
+  <Sheet Name="怪物信息">
+    <Columns>
+      <Column Name="配置ID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="难度" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="是否唯一" Type="System.String" WidthInCharacters="8" />
+      <Column Name="关卡编号" Type="System.String" WidthInCharacters="9" />
+      <Column Name="地图名" Type="System.String" WidthInCharacters="21" />
+      <Column Name="名称" Type="System.String" WidthInCharacters="23" />
+      <Column Name="角色信息路径" Type="System.String" WidthInCharacters="90" />
+      <Column Name="BOSS头像" Type="System.String" WidthInCharacters="57" />
+      <Column Name="PVE大血条类型" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="PVEBoss大血条血量基值" Type="System.UInt32" WidthInCharacters="8" TypeInfo="BluePrint.Common.ComponentModel.ResourceSelectableAttribute(Extension:.actorinfo,TypeDescription:ActorInfo文件)" />
+      <Column Name="怪物类型" Type="System.String" WidthInCharacters="8" />
+      <Column Name="兵种类型" Type="System.String" WidthInCharacters="16" />
+      <Column Name="怪物级别" Type="System.String" WidthInCharacters="8" />
+      <Column Name="是否BOSS" Type="System.String" WidthInCharacters="8" />
+      <Column Name="用途类型" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="是否显示最大作战区域" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="是否不叠加打野刀层数" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="是否隐藏小地图上的图标" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="小地图图标互斥组" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="小地图上的图标路径" Type="System.String" WidthInCharacters="7" />
+      <Column Name="小地图上的显示大小（展开前）" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="小地图上的显示大小（展开后）" Type="System.Single" WidthInCharacters="8" />
+      <Column Name="小地图普通刷怪点规则" Type="System.Byte" WidthInCharacters="11" />
+      <Column Name="被击杀时的播报动画" Type="System.String" WidthInCharacters="12" />
+      <Column Name="是否忽略动态阻挡" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="掉落概率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="动态属性类型" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="怪物等级" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="视野范围" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="模型缩放系数" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="追击范围" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="追击耐力" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础移动速度" Type="System.Int32" WidthInCharacters="16" />
+      <Column Name="随机主动技能规则" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="随机被动技能规则" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="是否由AI掉落" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="自杀禁止掉落" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="是否读取神符库" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="神符1掉落ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="神符1掉率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="神符2掉落ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="神符2掉率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="神符3掉落ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="神符3掉率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="神符4掉落ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="神符4掉率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="神符5掉落ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="神符5掉率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="所属英雄随机规则" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="奖励动态属性配置" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="技能1" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能2" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能3" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能4" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能5" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能6" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能7" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能8" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能9" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能10" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能1" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能2" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能3" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能4" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能5" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能6" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能7" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能8" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能9" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能10" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="脱战帧数" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="脱战生命回复" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础生命回复" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础攻击力" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础法术强度" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础护甲" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础抗性" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础生命" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="宝箱掉率" Type="System.String" WidthInCharacters="10" />
+      <Column Name="魂值经验" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="金币收益影响因子（承受伤害）" Type="System.Int32" WidthInCharacters="32" />
+      <Column Name="魂值收益影响因子（承受伤害）" Type="System.Int32" WidthInCharacters="32" />
+      <Column Name="出生时间" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="出生Age" Type="System.String" WidthInCharacters="74" />
+      <Column Name="死亡回收时间" Type="System.Int32" WidthInCharacters="17" />
+      <Column Name="动态属性配置" Type="System.UInt32" WidthInCharacters="38" />
+      <Column Name="冲突标识" Type="System.UInt32" WidthInCharacters="25" />
+      <Column Name="金币初始值" Type="System.UInt16" WidthInCharacters="13" />
+      <Column Name="平均浮动区间" Type="System.Byte" WidthInCharacters="14" />
+      <Column Name="击杀获得分数" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="阵营1击杀兵线波次" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="阵营2击杀兵线波次" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="备注" Type="System.String" WidthInCharacters="24" />
+      <Column Name="格挡英雄伤害" Type="System.Int32" WidthInCharacters="12" />
+      <Column Name="是否随机词缀" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="PVE大血条显示优先级" Type="System.UInt16" WidthInCharacters="22" />
+      <Column Name="棋子结算伤害" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="逻辑图" Type="System.String" WidthInCharacters="8" TypeInfo="BluePrint.Common.ComponentModel.ResourceSelectableAttribute(Extension:.gl,TypeDescription:gl文件)" />
+    </Columns>
+    <Row>
+      <Cell Name="配置ID">10001</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="是否唯一">1</Cell>
+      <Cell Name="地图名">33</Cell>
+      <Cell Name="名称">蓝方炮车2</Cell>
+      <Cell Name="角色信息路径">actorInfo/paocheActorInfo.actorinfo</Cell>
+      <Cell Name="怪物类型">兵线</Cell>
+      <Cell Name="兵种类型">超级兵</Cell>
+      <Cell Name="怪物级别">高级怪</Cell>
+      <Cell Name="是否BOSS">否</Cell>
+      <Cell Name="小地图普通刷怪点规则">0</Cell>
+      <Cell Name="是否忽略动态阻挡">1</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="怪物等级">17</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="追击范围">6000</Cell>
+      <Cell Name="追击耐力">750</Cell>
+      <Cell Name="基础移动速度">3000</Cell>
+      <Cell Name="神符1掉落ID">0</Cell>
+      <Cell Name="神符1掉率">0</Cell>
+      <Cell Name="技能1">20160</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="基础攻击力">192</Cell>
+      <Cell Name="基础法术强度">192</Cell>
+      <Cell Name="基础护甲">0</Cell>
+      <Cell Name="基础抗性">0</Cell>
+      <Cell Name="基础生命">2790</Cell>
+      <Cell Name="宝箱掉率">0</Cell>
+      <Cell Name="魂值经验">100</Cell>
+      <Cell Name="死亡回收时间">4000</Cell>
+      <Cell Name="动态属性配置">12</Cell>
+      <Cell Name="冲突标识">2</Cell>
+      <Cell Name="金币初始值">84</Cell>
+      <Cell Name="平均浮动区间">2</Cell>
+      <Cell Name="备注">3v3蓝色炮车</Cell>
+      <Cell Name="逻辑图">MyBp/monsterLogic.gl</Cell>
+    </Row>
+    <Row>
+      <Cell Name="配置ID">10002</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="是否唯一">1</Cell>
+      <Cell Name="地图名">33</Cell>
+      <Cell Name="名称">蓝方战士2</Cell>
+      <Cell Name="角色信息路径">actorInfo/jinzhanActorInfo.actorinfo</Cell>
+      <Cell Name="怪物类型">兵线</Cell>
+      <Cell Name="兵种类型">近战兵</Cell>
+      <Cell Name="怪物级别">高级怪</Cell>
+      <Cell Name="是否BOSS">否</Cell>
+      <Cell Name="小地图普通刷怪点规则">0</Cell>
+      <Cell Name="是否忽略动态阻挡">1</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="怪物等级">17</Cell>
+      <Cell Name="视野范围">5000</Cell>
+      <Cell Name="追击范围">5000</Cell>
+      <Cell Name="追击耐力">750</Cell>
+      <Cell Name="基础移动速度">3000</Cell>
+      <Cell Name="神符1掉落ID">0</Cell>
+      <Cell Name="神符1掉率">0</Cell>
+      <Cell Name="技能1">10000</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="基础攻击力">60</Cell>
+      <Cell Name="基础法术强度">60</Cell>
+      <Cell Name="基础护甲">0</Cell>
+      <Cell Name="基础抗性">0</Cell>
+      <Cell Name="基础生命">1860</Cell>
+      <Cell Name="宝箱掉率">0</Cell>
+      <Cell Name="魂值经验">60</Cell>
+      <Cell Name="死亡回收时间">4000</Cell>
+      <Cell Name="动态属性配置">12</Cell>
+      <Cell Name="冲突标识">10</Cell>
+      <Cell Name="金币初始值">48</Cell>
+      <Cell Name="平均浮动区间">2</Cell>
+      <Cell Name="备注">3v3蓝色近战兵</Cell>
+      <Cell Name="逻辑图">MyBp/monsterLogic.gl</Cell>
+    </Row>
+    <Row>
+      <Cell Name="配置ID">10003</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="是否唯一">1</Cell>
+      <Cell Name="地图名">33</Cell>
+      <Cell Name="名称">蓝方法师2</Cell>
+      <Cell Name="角色信息路径">actorInfo/yuanchengActorInfo.actorinfo</Cell>
+      <Cell Name="怪物类型">兵线</Cell>
+      <Cell Name="兵种类型">远程兵</Cell>
+      <Cell Name="怪物级别">高级怪</Cell>
+      <Cell Name="是否BOSS">否</Cell>
+      <Cell Name="小地图普通刷怪点规则">0</Cell>
+      <Cell Name="是否忽略动态阻挡">1</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="怪物等级">17</Cell>
+      <Cell Name="视野范围">5500</Cell>
+      <Cell Name="追击范围">5500</Cell>
+      <Cell Name="追击耐力">750</Cell>
+      <Cell Name="基础移动速度">3000</Cell>
+      <Cell Name="神符1掉落ID">0</Cell>
+      <Cell Name="神符1掉率">0</Cell>
+      <Cell Name="技能1">10002</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="基础攻击力">120</Cell>
+      <Cell Name="基础法术强度">120</Cell>
+      <Cell Name="基础护甲">0</Cell>
+      <Cell Name="基础抗性">0</Cell>
+      <Cell Name="基础生命">1545</Cell>
+      <Cell Name="宝箱掉率">0</Cell>
+      <Cell Name="魂值经验">45</Cell>
+      <Cell Name="死亡回收时间">4000</Cell>
+      <Cell Name="动态属性配置">12</Cell>
+      <Cell Name="冲突标识">10</Cell>
+      <Cell Name="金币初始值">36</Cell>
+      <Cell Name="平均浮动区间">2</Cell>
+      <Cell Name="备注">3v3蓝色远程兵</Cell>
+      <Cell Name="逻辑图">MyBp/monsterLogic.gl</Cell>
+    </Row>
+    <Row>
+      <Cell Name="配置ID">10005</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="是否唯一">1</Cell>
+      <Cell Name="地图名">33</Cell>
+      <Cell Name="名称">大暗夜狼2</Cell>
+      <Cell Name="角色信息路径">actorInfo/野怪5.actorinfo</Cell>
+      <Cell Name="怪物类型">野怪</Cell>
+      <Cell Name="兵种类型">其他</Cell>
+      <Cell Name="怪物级别">高级怪</Cell>
+      <Cell Name="是否BOSS">否</Cell>
+      <Cell Name="小地图普通刷怪点规则">1</Cell>
+      <Cell Name="是否忽略动态阻挡">1</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="怪物等级">17</Cell>
+      <Cell Name="视野范围">5500</Cell>
+      <Cell Name="追击范围">5000</Cell>
+      <Cell Name="追击耐力">750</Cell>
+      <Cell Name="基础移动速度">3000</Cell>
+      <Cell Name="神符1掉落ID">0</Cell>
+      <Cell Name="神符1掉率">0</Cell>
+      <Cell Name="技能1">20030</Cell>
+      <Cell Name="被动技能1">50022</Cell>
+      <Cell Name="被动技能2">50021</Cell>
+      <Cell Name="脱战生命回复">2500</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="基础攻击力">138</Cell>
+      <Cell Name="基础法术强度">138</Cell>
+      <Cell Name="基础护甲">183</Cell>
+      <Cell Name="基础抗性">183</Cell>
+      <Cell Name="基础生命">2480</Cell>
+      <Cell Name="宝箱掉率">0</Cell>
+      <Cell Name="魂值经验">70</Cell>
+      <Cell Name="死亡回收时间">4000</Cell>
+      <Cell Name="动态属性配置">13</Cell>
+      <Cell Name="冲突标识">1</Cell>
+      <Cell Name="金币初始值">70</Cell>
+      <Cell Name="平均浮动区间">7</Cell>
+      <Cell Name="备注">3v34森林熊-大(上)</Cell>
+      <Cell Name="逻辑图">MyBp/monsterLogic.gl</Cell>
+    </Row>
+    <Row>
+      <Cell Name="配置ID">10004</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="是否唯一">1</Cell>
+      <Cell Name="地图名">33</Cell>
+      <Cell Name="名称">大魔种先锋2</Cell>
+      <Cell Name="角色信息路径">actorInfo/yeguai4.actorinfo</Cell>
+      <Cell Name="怪物类型">野怪</Cell>
+      <Cell Name="兵种类型">暗影大将</Cell>
+      <Cell Name="怪物级别">高级怪</Cell>
+      <Cell Name="是否BOSS">否</Cell>
+      <Cell Name="小地图普通刷怪点规则">1</Cell>
+      <Cell Name="是否忽略动态阻挡">1</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="怪物等级">17</Cell>
+      <Cell Name="视野范围">5000</Cell>
+      <Cell Name="追击范围">4300</Cell>
+      <Cell Name="追击耐力">750</Cell>
+      <Cell Name="基础移动速度">3000</Cell>
+      <Cell Name="神符1掉落ID">0</Cell>
+      <Cell Name="神符1掉率">0</Cell>
+      <Cell Name="技能1">20230</Cell>
+      <Cell Name="被动技能1">50021</Cell>
+      <Cell Name="脱战生命回复">2500</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="基础攻击力">138</Cell>
+      <Cell Name="基础法术强度">138</Cell>
+      <Cell Name="基础护甲">183</Cell>
+      <Cell Name="基础抗性">183</Cell>
+      <Cell Name="基础生命">2480</Cell>
+      <Cell Name="宝箱掉率">0</Cell>
+      <Cell Name="魂值经验">60</Cell>
+      <Cell Name="死亡回收时间">4000</Cell>
+      <Cell Name="动态属性配置">13</Cell>
+      <Cell Name="冲突标识">1</Cell>
+      <Cell Name="金币初始值">60</Cell>
+      <Cell Name="平均浮动区间">6</Cell>
+      <Cell Name="备注">3v31大将-大（下）</Cell>
+      <Cell Name="逻辑图">MyBp/monsterLogic.gl</Cell>
+    </Row>
+    <Row>
+      <Cell Name="配置ID">10006</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="是否唯一">1</Cell>
+      <Cell Name="地图名">33</Cell>
+      <Cell Name="名称">大魔种弓手2</Cell>
+      <Cell Name="角色信息路径">actorInfo/10006_Actorinfo.actorinfo</Cell>
+      <Cell Name="怪物类型">野怪</Cell>
+      <Cell Name="兵种类型">黑暗先锋</Cell>
+      <Cell Name="怪物级别">高级怪</Cell>
+      <Cell Name="是否BOSS">否</Cell>
+      <Cell Name="小地图普通刷怪点规则">1</Cell>
+      <Cell Name="是否忽略动态阻挡">1</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="怪物等级">17</Cell>
+      <Cell Name="视野范围">5500</Cell>
+      <Cell Name="追击范围">5000</Cell>
+      <Cell Name="追击耐力">750</Cell>
+      <Cell Name="基础移动速度">3000</Cell>
+      <Cell Name="神符1掉落ID">0</Cell>
+      <Cell Name="神符1掉率">0</Cell>
+      <Cell Name="技能1">20240</Cell>
+      <Cell Name="被动技能1">50021</Cell>
+      <Cell Name="脱战生命回复">2500</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="基础攻击力">138</Cell>
+      <Cell Name="基础法术强度">138</Cell>
+      <Cell Name="基础护甲">183</Cell>
+      <Cell Name="基础抗性">183</Cell>
+      <Cell Name="基础生命">2480</Cell>
+      <Cell Name="宝箱掉率">0</Cell>
+      <Cell Name="魂值经验">60</Cell>
+      <Cell Name="死亡回收时间">4000</Cell>
+      <Cell Name="动态属性配置">13</Cell>
+      <Cell Name="冲突标识">1</Cell>
+      <Cell Name="金币初始值">60</Cell>
+      <Cell Name="平均浮动区间">6</Cell>
+      <Cell Name="备注">3v32先锋-大（下）</Cell>
+      <Cell Name="逻辑图">MyBp/monsterLogic.gl</Cell>
+    </Row>
+    <Row>
+      <Cell Name="配置ID">10007</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="是否唯一">1</Cell>
+      <Cell Name="地图名">33</Cell>
+      <Cell Name="名称">大暗夜狼2</Cell>
+      <Cell Name="角色信息路径">actorInfo/10007_actorinfo.actorinfo</Cell>
+      <Cell Name="怪物类型">野怪</Cell>
+      <Cell Name="兵种类型">其他</Cell>
+      <Cell Name="怪物级别">高级怪</Cell>
+      <Cell Name="是否BOSS">否</Cell>
+      <Cell Name="小地图普通刷怪点规则">1</Cell>
+      <Cell Name="是否忽略动态阻挡">1</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="怪物等级">17</Cell>
+      <Cell Name="视野范围">5500</Cell>
+      <Cell Name="追击范围">5000</Cell>
+      <Cell Name="追击耐力">750</Cell>
+      <Cell Name="基础移动速度">3000</Cell>
+      <Cell Name="神符1掉落ID">0</Cell>
+      <Cell Name="神符1掉率">0</Cell>
+      <Cell Name="技能1">20030</Cell>
+      <Cell Name="被动技能1">50022</Cell>
+      <Cell Name="被动技能2">50021</Cell>
+      <Cell Name="脱战生命回复">2500</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="基础攻击力">138</Cell>
+      <Cell Name="基础法术强度">138</Cell>
+      <Cell Name="基础护甲">183</Cell>
+      <Cell Name="基础抗性">183</Cell>
+      <Cell Name="基础生命">2480</Cell>
+      <Cell Name="宝箱掉率">0</Cell>
+      <Cell Name="魂值经验">70</Cell>
+      <Cell Name="死亡回收时间">4000</Cell>
+      <Cell Name="动态属性配置">13</Cell>
+      <Cell Name="冲突标识">1</Cell>
+      <Cell Name="金币初始值">70</Cell>
+      <Cell Name="平均浮动区间">7</Cell>
+      <Cell Name="备注">3v34森林熊-大(上)</Cell>
+      <Cell Name="逻辑图">MyBp/monsterLogic.gl</Cell>
+    </Row>
+    <Row>
+      <Cell Name="配置ID">10106</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="是否唯一">1</Cell>
+      <Cell Name="地图名">33</Cell>
+      <Cell Name="名称">大魔种弓手2</Cell>
+      <Cell Name="角色信息路径">Prefab_Characters/Prefab_Monster/PVPMonster_Xianfeng _big/PVE_YeGuai_Actorinfo</Cell>
+      <Cell Name="怪物类型">野怪</Cell>
+      <Cell Name="兵种类型">黑暗先锋</Cell>
+      <Cell Name="怪物级别">高级怪</Cell>
+      <Cell Name="是否BOSS">否</Cell>
+      <Cell Name="小地图普通刷怪点规则">1</Cell>
+      <Cell Name="是否忽略动态阻挡">1</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="怪物等级">17</Cell>
+      <Cell Name="视野范围">5500</Cell>
+      <Cell Name="追击范围">5000</Cell>
+      <Cell Name="追击耐力">750</Cell>
+      <Cell Name="基础移动速度">3000</Cell>
+      <Cell Name="神符1掉落ID">0</Cell>
+      <Cell Name="神符1掉率">0</Cell>
+      <Cell Name="技能1">20240</Cell>
+      <Cell Name="被动技能1">50021</Cell>
+      <Cell Name="脱战生命回复">2500</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="基础攻击力">138</Cell>
+      <Cell Name="基础法术强度">138</Cell>
+      <Cell Name="基础护甲">183</Cell>
+      <Cell Name="基础抗性">183</Cell>
+      <Cell Name="基础生命">2480</Cell>
+      <Cell Name="宝箱掉率">0</Cell>
+      <Cell Name="魂值经验">60</Cell>
+      <Cell Name="死亡回收时间">4000</Cell>
+      <Cell Name="动态属性配置">13</Cell>
+      <Cell Name="冲突标识">1</Cell>
+      <Cell Name="金币初始值">60</Cell>
+      <Cell Name="平均浮动区间">6</Cell>
+      <Cell Name="备注">3v32先锋-大（下）</Cell>
+    </Row>
+    <Row>
+      <Cell Name="配置ID">10107</Cell>
+      <Cell Name="难度">1</Cell>
+      <Cell Name="是否唯一">1</Cell>
+      <Cell Name="地图名">33</Cell>
+      <Cell Name="名称">大暗夜狼2</Cell>
+      <Cell Name="角色信息路径">Prefab_Characters/Prefab_Monster/PVPMonster_jiansuwolf_big/PVP_yeguai_actorinfo</Cell>
+      <Cell Name="怪物类型">野怪</Cell>
+      <Cell Name="兵种类型">其他</Cell>
+      <Cell Name="怪物级别">高级怪</Cell>
+      <Cell Name="是否BOSS">否</Cell>
+      <Cell Name="小地图普通刷怪点规则">1</Cell>
+      <Cell Name="是否忽略动态阻挡">1</Cell>
+      <Cell Name="动态属性类型">1</Cell>
+      <Cell Name="怪物等级">17</Cell>
+      <Cell Name="视野范围">5500</Cell>
+      <Cell Name="追击范围">5000</Cell>
+      <Cell Name="追击耐力">750</Cell>
+      <Cell Name="基础移动速度">3000</Cell>
+      <Cell Name="神符1掉落ID">0</Cell>
+      <Cell Name="神符1掉率">0</Cell>
+      <Cell Name="技能1">20030</Cell>
+      <Cell Name="被动技能1">50022</Cell>
+      <Cell Name="被动技能2">50021</Cell>
+      <Cell Name="脱战生命回复">2500</Cell>
+      <Cell Name="基础生命回复">0</Cell>
+      <Cell Name="基础攻击力">138</Cell>
+      <Cell Name="基础法术强度">138</Cell>
+      <Cell Name="基础护甲">183</Cell>
+      <Cell Name="基础抗性">183</Cell>
+      <Cell Name="基础生命">2480</Cell>
+      <Cell Name="宝箱掉率">0</Cell>
+      <Cell Name="魂值经验">70</Cell>
+      <Cell Name="死亡回收时间">4000</Cell>
+      <Cell Name="动态属性配置">13</Cell>
+      <Cell Name="冲突标识">1</Cell>
+      <Cell Name="金币初始值">70</Cell>
+      <Cell Name="平均浮动区间">7</Cell>
+      <Cell Name="备注">3v34森林熊-大(上)</Cell>
+    </Row>
+  </Sheet>
+  <Sheet Name="掉落物品ID查询怪物ID">
+    <Columns>
+      <Column Name="物品ID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="怪物ID" Type="System.Int32" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="小地图图标互斥组优先级">
+    <Columns>
+      <Column Name="组ID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="优先级1" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="优先级2" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="优先级3" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="优先级4" Type="System.Byte" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+</Root>

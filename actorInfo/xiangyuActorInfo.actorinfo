@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="Assets.Scripts.GameLogic.CActorInfo">
+  <ActorName>项羽</ActorName>
+  <useMecanim>0</useMecanim>
+  <ArtPrefabLOD Type="System.String[]">
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1351_XiangYu_LOD1</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1351_XiangYu_LOD1</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1351_XiangYu_LOD2</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1351_XiangYu_LOD3</Item>
+  </ArtPrefabLOD>
+  <enemyCampUseDifferentArtPrefab>0</enemyCampUseDifferentArtPrefab>
+  <ArtLobbyShowLOD Type="System.String[]">
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1351_XiangYu_Show1</Item>
+    <Item Type="System.String"></Item>
+  </ArtLobbyShowLOD>
+  <SoundBanks Type="System.String[]">
+    <Item Type="System.String">Hero_XiangYu_SFX</Item>
+    <Item Type="System.String">Hero_XiangYu_VO</Item>
+  </SoundBanks>
+  <SkinPrefab Type="Assets.Scripts.GameLogic.SkinElement[]">
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1352_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1352_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1352_XiangYu_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1352_XiangYu_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1352_XiangYu_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1353_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1353_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1353_XiangYu_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1353_XiangYu_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1353_XiangYu_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1354_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1354_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1354_XiangYu_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1354_XiangYu_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1354_XiangYu_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1355_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1355_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1355_XiangYu_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1355_XiangYu_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1355_XiangYu_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1356_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1356_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1356_XiangYu_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1356_XiangYu_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1356_XiangYu_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1357_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1357_XiangYu_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1357_XiangYu_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1357_XiangYu_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/135_XiangYu/1357_XiangYu_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+  </SkinPrefab>
+  <UseNewAnimaSoundType>0</UseNewAnimaSoundType>
+  <shadowHeight>2.498875</shadowHeight>
+  <AnimaSound Type="Assets.Scripts.GameLogic.AnimaSoundElement[]">
+    <Item Type="Assets.Scripts.GameLogic.AnimaSoundElement">
+      <AnimaName>Come</AnimaName>
+      <SoundName>Play_XiangYu_Voice_Come</SoundName>
+      <RepeatRate>0</RepeatRate>
+      <MaxRepeatCount>0</MaxRepeatCount>
+      <NextElementIndex>0</NextElementIndex>
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.AnimaSoundElement">
+      <AnimaName>Idleshow2</AnimaName>
+      <SoundName>Play_XiangYu_Voice_Show</SoundName>
+      <RepeatRate>0</RepeatRate>
+      <MaxRepeatCount>0</MaxRepeatCount>
+      <NextElementIndex>0</NextElementIndex>
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.AnimaSoundElement">
+      <AnimaName>Idleshow3</AnimaName>
+      <SoundName>Play_XiangYu_Voice_Show</SoundName>
+      <RepeatRate>0</RepeatRate>
+      <MaxRepeatCount>0</MaxRepeatCount>
+      <NextElementIndex>0</NextElementIndex>
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.AnimaSoundElement">
+      <AnimaName>Cheer</AnimaName>
+      <SoundName>Play_XiangYu_Voice_Show</SoundName>
+      <RepeatRate>0</RepeatRate>
+      <MaxRepeatCount>0</MaxRepeatCount>
+      <NextElementIndex>0</NextElementIndex>
+    </Item>
+  </AnimaSound>
+  <TransConfigs Type="Assets.Scripts.GameLogic.TransformConfig[]">
+    <Item Type="Assets.Scripts.GameLogic.TransformConfig">
+      <Offset Type="UnityEngine.Vector3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Offset>
+      <Scale>1</Scale>
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.TransformConfig">
+      <Offset Type="UnityEngine.Vector3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Offset>
+      <Scale>1.05</Scale>
+    </Item>
+  </TransConfigs>
+  <InteractiveAnimaVfx Type="Assets.Scripts.GameLogic.InteractiveAnimaVfxElement[]" />
+  <LobbySoundBanks Type="System.String[]">
+    <Item Type="System.String">Hero_XiangYu_Show</Item>
+  </LobbySoundBanks>
+  <LobbyScale>1.1</LobbyScale>
+  <collisionType>2</collisionType>
+  <iCollisionCenter Type="VInt3">
+    <x>0</x>
+    <y>200</y>
+    <z>0</z>
+  </iCollisionCenter>
+  <iCollisionSize Type="VInt3">
+    <x>400</x>
+    <y>400</y>
+    <z>400</z>
+  </iCollisionSize>
+  <iBulletHeight>1200</iBulletHeight>
+  <iAttackLineHeight>4500</iAttackLineHeight>
+  <BtResourcePath></BtResourcePath>
+  <deadAgePath></deadAgePath>
+  <ActSounds Type="Assets.Scripts.GameLogic.ActSound[]">
+    <Item Type="Assets.Scripts.GameLogic.ActSound">
+      <SoundActType>0</SoundActType>
+      <ActSoundName>Play_XiangYu_Voice_Move</ActSoundName>
+    </Item>
+  </ActSounds>
+  <callMonsterConfigID>0</callMonsterConfigID>
+  <hudHeight>0</hudHeight>
+  <HudType>0</HudType>
+</Root>

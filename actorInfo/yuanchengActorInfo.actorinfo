@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="Assets.Scripts.GameLogic.CActorInfo">
+  <ActorName>PVE_ wizard1</ActorName>
+  <useMecanim>0</useMecanim>
+  <ArtPrefabLOD Type="System.String[]">
+    <Item Type="System.String">Prefab_Characters/Prefab_Soldier/Soldier_wizard1/Soldier_wizard1_LOD1</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Soldier/Soldier_wizard1/Soldier_wizard1_LOD1</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Soldier/Soldier_wizard1/Soldier_wizard1_LOD2</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Soldier/Soldier_wizard1/Soldier_wizard1_LOD3</Item>
+  </ArtPrefabLOD>
+  <enemyCampUseDifferentArtPrefab>0</enemyCampUseDifferentArtPrefab>
+  <ArtLobbyShowLOD Type="System.String[]">
+    <Item Type="System.String"></Item>
+    <Item Type="System.String"></Item>
+  </ArtLobbyShowLOD>
+  <SoundBanks Type="System.String[]">
+    <Item Type="System.String">Object</Item>
+  </SoundBanks>
+  <SkinPrefab Type="Assets.Scripts.GameLogic.SkinElement[]" />
+  <UseNewAnimaSoundType>0</UseNewAnimaSoundType>
+  <shadowHeight>1.4415</shadowHeight>
+  <AnimaSound Type="Assets.Scripts.GameLogic.AnimaSoundElement[]" />
+  <TransConfigs Type="Assets.Scripts.GameLogic.TransformConfig[]">
+    <Item Type="Assets.Scripts.GameLogic.TransformConfig">
+      <Offset Type="UnityEngine.Vector3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Offset>
+      <Scale>1</Scale>
+    </Item>
+  </TransConfigs>
+  <InteractiveAnimaVfx Type="Assets.Scripts.GameLogic.InteractiveAnimaVfxElement[]" />
+  <LobbySoundBanks Type="System.String[]" />
+  <LobbyScale>1</LobbyScale>
+  <collisionType>2</collisionType>
+  <iCollisionCenter Type="VInt3">
+    <x>0</x>
+    <y>200</y>
+    <z>0</z>
+  </iCollisionCenter>
+  <iCollisionSize Type="VInt3">
+    <x>400</x>
+    <y>600</y>
+    <z>600</z>
+  </iCollisionSize>
+  <iBulletHeight>1000</iBulletHeight>
+  <iAttackLineHeight>4500</iAttackLineHeight>
+  <BtResourcePath></BtResourcePath>
+  <deadAgePath></deadAgePath>
+  <ActSounds Type="Assets.Scripts.GameLogic.ActSound[]" />
+  <callMonsterConfigID>0</callMonsterConfigID>
+  <hudHeight>1500</hudHeight>
+  <HudType>0</HudType>
+</Root>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="120.召唤怪物表">
+  <Sheet Name="召唤兽配置" FontColor="FFFFFFFF" FillColor="FF003366">
+    <Columns>
+      <Column Name="召唤配置ID" Type="System.UInt16" WidthInCharacters="13" />
+      <Column Name="怪物ID" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="怪物数值依赖类型" Type="System.String" WidthInCharacters="16" />
+      <Column Name="怪物属性加成方式" Type="System.String" WidthInCharacters="14" />
+      <Column Name="攻击力加成系数" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="法术强度加成系数" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="护甲加成系数" Type="System.UInt32" WidthInCharacters="15" />
+      <Column Name="抗性加成系数" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="生命加成系数" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="移动速度加成系数" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="攻击速度加成系数" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="暴击率加成系数" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="暴击效果加成系数" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="冷却缩减加成系数" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="同主人同ID怪物数量上限" Type="System.UInt32" WidthInCharacters="14" />
+    </Columns>
+  </Sheet>
+</Root>

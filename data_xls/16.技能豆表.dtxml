@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="16.技能豆表">
+  <Sheet Name="技能豆表" FontColor="FFFFFFFF" FillColor="FF376092">
+    <Columns>
+      <Column Name="ID" Type="System.UInt32" WidthInCharacters="11" />
+      <Column Name="备注" Type="System.String" WidthInCharacters="14" />
+      <Column Name="存储上限" Type="System.UInt32" WidthInCharacters="15" />
+      <Column Name="上限成长依赖" Type="System.UInt32" WidthInCharacters="17" />
+      <Column Name="上限成长间隔" Type="System.UInt32" WidthInCharacters="19" />
+      <Column Name="上限成长值" Type="System.UInt32" WidthInCharacters="14" />
+      <Column Name="回复CD" Type="System.Int32" WidthInCharacters="18" />
+      <Column Name="CD成长依赖" Type="System.UInt32" WidthInCharacters="17" />
+      <Column Name="CD成长间隔" Type="System.UInt32" WidthInCharacters="17" />
+      <Column Name="CD成长值" Type="System.Int32" WidthInCharacters="19" />
+      <Column Name="冷却缩减效果" Type="System.Int32" WidthInCharacters="24" />
+      <Column Name="飘字" Type="System.String" WidthInCharacters="11" />
+      <Column Name="归0触发效果ID" Type="System.UInt32" WidthInCharacters="17" />
+    </Columns>
+  </Sheet>
+</Root>

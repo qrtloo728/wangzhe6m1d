@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="Assets.Scripts.GameLogic.CActorInfo">
+  <ActorName>PVE  yeguai</ActorName>
+  <useMecanim>0</useMecanim>
+  <ArtPrefabLOD Type="System.String[]">
+    <Item Type="System.String">Prefab_Characters/Prefab_Monster/PVPMonster_Dajiang_big/Mst_00_Dajiang_LOD1</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Monster/PVPMonster_Dajiang_big/Mst_00_Dajiang_LOD1</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Monster/PVPMonster_Dajiang_big/Mst_00_Dajiang_LOD2</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Monster/PVPMonster_Dajiang_big/Mst_00_Dajiang_LOD3</Item>
+  </ArtPrefabLOD>
+  <enemyCampUseDifferentArtPrefab>0</enemyCampUseDifferentArtPrefab>
+  <ArtLobbyShowLOD Type="System.String[]">
+    <Item Type="System.String"></Item>
+    <Item Type="System.String"></Item>
+  </ArtLobbyShowLOD>
+  <SoundBanks Type="System.String[]" />
+  <SkinPrefab Type="Assets.Scripts.GameLogic.SkinElement[]" />
+  <UseNewAnimaSoundType>0</UseNewAnimaSoundType>
+  <shadowHeight>3.097037</shadowHeight>
+  <AnimaSound Type="Assets.Scripts.GameLogic.AnimaSoundElement[]" />
+  <TransConfigs Type="Assets.Scripts.GameLogic.TransformConfig[]">
+    <Item Type="Assets.Scripts.GameLogic.TransformConfig">
+      <Offset Type="UnityEngine.Vector3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Offset>
+      <Scale>1</Scale>
+    </Item>
+  </TransConfigs>
+  <InteractiveAnimaVfx Type="Assets.Scripts.GameLogic.InteractiveAnimaVfxElement[]" />
+  <LobbySoundBanks Type="System.String[]" />
+  <LobbyScale>1</LobbyScale>
+  <collisionType>2</collisionType>
+  <iCollisionCenter Type="VInt3">
+    <x>0</x>
+    <y>200</y>
+    <z>0</z>
+  </iCollisionCenter>
+  <iCollisionSize Type="VInt3">
+    <x>400</x>
+    <y>400</y>
+    <z>400</z>
+  </iCollisionSize>
+  <iBulletHeight>1600</iBulletHeight>
+  <iAttackLineHeight>4500</iAttackLineHeight>
+  <BtResourcePath></BtResourcePath>
+  <deadAgePath>Prefab_Characters/Prefab_Monster/PVPMonster_Dajiang/skill/DEAD</deadAgePath>
+  <ActSounds Type="Assets.Scripts.GameLogic.ActSound[]" />
+  <callMonsterConfigID>0</callMonsterConfigID>
+  <hudHeight>3000</hudHeight>
+  <HudType>1</HudType>
+</Root>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="BluePrint.GraphLogic.Core.GraphLogicGraph" id="259384b5-3154-4d55-bcd1-9aace21594c6" Static="0">
+  <Nodes>
+    <Node Type="BluePrint.GraphLogic.SGame.ActorRootBinderNode">
+      <id>2dd538ad-8c4b-4ff6-adce-e58394f1f84b</id>
+      <nodeName>ActorRoot的Binder节点</nodeName>
+      <canvasRect>{X=-208.8572,Y=405.619,Width=260,Height=290}</canvasRect>
+      <commentText></commentText>
+      <NodeAttrType>BluePrint.Graph.Core.NodeTypeAttribute</NodeAttrType>
+      <GenericFlag>129</GenericFlag>
+      <Slots>
+        <Slot Type="BluePrint.Graph.Generic.GenericSlot">
+          <FieldType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</FieldType>
+          <FieldName>FightEvent</FieldName>
+          <id>7bfa0f3e-cdc9-47c4-b82e-aaa360e484bf</id>
+          <slotName>Fight事件</slotName>
+          <slotType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</slotType>
+          <AttrType>BluePrint.Graph.Generic.OutputFlowSlotAttribute</AttrType>
+          <AttrName>Fight事件</AttrName>
+          <AttrFlag>13</AttrFlag>
+          <Connections>
+            <Connection>ebc68979-7e61-4baf-b3e4-4d1194102213</Connection>
+          </Connections>
+        </Slot>
+        <Slot Type="BluePrint.Graph.Generic.GenericSlot">
+          <FieldType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</FieldType>
+          <FieldName>FightOverEvent</FieldName>
+          <id>c28ebdb8-7d69-4309-9f96-76252f017fa2</id>
+          <slotName>FightOver事件</slotName>
+          <slotType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</slotType>
+          <AttrType>BluePrint.Graph.Generic.OutputFlowSlotAttribute</AttrType>
+          <AttrName>FightOver事件</AttrName>
+          <AttrFlag>13</AttrFlag>
+          <Connections />
+        </Slot>
+        <Slot Type="BluePrint.Graph.Generic.GenericSlot">
+          <FieldType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</FieldType>
+          <FieldName>DeadEvent</FieldName>
+          <id>72960a13-f23b-4beb-83d8-2f5d5ec7dcb5</id>
+          <slotName>死亡事件</slotName>
+          <slotType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</slotType>
+          <AttrType>BluePrint.Graph.Generic.OutputFlowSlotAttribute</AttrType>
+          <AttrName>死亡事件</AttrName>
+          <AttrFlag>13</AttrFlag>
+          <Connections />
+        </Slot>
+        <Slot Type="BluePrint.Graph.Generic.GenericSlot">
+          <FieldType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</FieldType>
+          <FieldName>OnBindEvent</FieldName>
+          <id>73dbdb95-43a1-49e6-bf6c-f218290f80fa</id>
+          <slotName>绑定事件</slotName>
+          <slotType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</slotType>
+          <AttrType>BluePrint.Graph.Generic.OutputFlowSlotAttribute</AttrType>
+          <AttrName>绑定事件</AttrName>
+          <AttrFlag>13</AttrFlag>
+          <Connections />
+        </Slot>
+        <Slot Type="BluePrint.Graph.Generic.GenericSlot">
+          <FieldType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</FieldType>
+          <FieldName>ResetEvent</FieldName>
+          <id>74c632ec-0639-47e1-bc8a-bd5712695afc</id>
+          <slotName>重置事件</slotName>
+          <slotType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</slotType>
+          <AttrType>BluePrint.Graph.Generic.OutputFlowSlotAttribute</AttrType>
+          <AttrName>重置事件</AttrName>
+          <AttrFlag>13</AttrFlag>
+          <Connections />
+        </Slot>
+        <Slot Type="BluePrint.Graph.Generic.GenericSlot">
+          <FieldType>BluePrint.GraphLogic.SGame.ActorRoot</FieldType>
+          <FieldName>BindTarget</FieldName>
+          <id>249ffae5-f73f-4364-a0f9-14fab2cdf2c4</id>
+          <slotName>BindTarget</slotName>
+          <slotType>BluePrint.GraphLogic.SGame.ActorRoot</slotType>
+          <AttrType>BluePrint.Graph.Generic.OutputSlotAttribute</AttrType>
+          <AttrName>BindTarget</AttrName>
+          <AttrFlag>4</AttrFlag>
+          <Connections />
+        </Slot>
+        <Slot Type="BluePrint.Graph.Generic.GenericSlot">
+          <FieldType>System.Collections.Generic.List`1[BluePrint.GraphLogic.SGame.ActorRoot]</FieldType>
+          <FieldName>BindTargets</FieldName>
+          <id>1ba55aca-f25b-4456-bdcc-e22085bd4deb</id>
+          <slotName>BindTargets</slotName>
+          <slotType>System.Collections.Generic.List`1[[BluePrint.GraphLogic.SGame.ActorRoot, BluePrint.GraphLogic.SGame, Version=1.52.4.2, Culture=neutral, PublicKeyToken=null]]</slotType>
+          <AttrType>BluePrint.Graph.Generic.OutputSlotAttribute</AttrType>
+          <AttrName>BindTargets</AttrName>
+          <AttrFlag>4</AttrFlag>
+          <Connections />
+        </Slot>
+      </Slots>
+      <CppType>ActorRootBinderNode</CppType>
+    </Node>
+    <Node Type="BluePrint.GraphLogic.SGame.ActorFightBinderEventNode">
+      <id>a4324766-9f33-4691-9db2-4aa42c91cf35</id>
+      <nodeName>FightEvent</nodeName>
+      <canvasRect>{X=146.0396,Y=286.2976,Width=155,Height=110}</canvasRect>
+      <commentText></commentText>
+      <NodeAttrType>BluePrint.Graph.Core.NodeTypeAttribute</NodeAttrType>
+      <GenericFlag>264</GenericFlag>
+      <Slots>
+        <Slot Type="BluePrint.Graph.Generic.GenericSlot">
+          <FieldType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</FieldType>
+          <FieldName>ActiveEvent</FieldName>
+          <id>11711119-190a-4b94-874d-e54b315252e2</id>
+          <slotName>激活</slotName>
+          <slotType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</slotType>
+          <AttrType>BluePrint.Graph.Generic.InputFlowSlotAttribute</AttrType>
+          <AttrName>激活</AttrName>
+          <AttrFlag>3</AttrFlag>
+          <Connections>
+            <Connection>ebc68979-7e61-4baf-b3e4-4d1194102213</Connection>
+          </Connections>
+        </Slot>
+        <Slot Type="BluePrint.Graph.Generic.GenericSlot">
+          <FieldType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</FieldType>
+          <FieldName>TriggerFlow</FieldName>
+          <id>b5f09eec-e88f-4286-9d86-353efb7ca107</id>
+          <slotName>触发</slotName>
+          <slotType>BluePrint.Graph.Generic.FlowSlotPlaceHolder</slotType>
+          <AttrType>BluePrint.Graph.Generic.OutputFlowSlotAttribute</AttrType>
+          <AttrName>触发</AttrName>
+          <AttrFlag>5</AttrFlag>
+          <Connections />
+        </Slot>
+      </Slots>
+      <CppType>ActorFightBinderEventNode</CppType>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <id>ebc68979-7e61-4baf-b3e4-4d1194102213</id>
+      <StartGuid>7bfa0f3e-cdc9-47c4-b82e-aaa360e484bf</StartGuid>
+      <EndGuid>11711119-190a-4b94-874d-e54b315252e2</EndGuid>
+    </Connection>
+  </Connections>
+  <Comments />
+</Root>

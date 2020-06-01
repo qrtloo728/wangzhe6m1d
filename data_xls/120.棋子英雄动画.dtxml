@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="120.棋子英雄动画">
+  <Sheet Name="动画">
+    <Columns>
+      <Column Name="ID" Type="System.UInt16" WidthInCharacters="8" />
+      <Column Name="英雄ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="动画名" Type="System.String" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+</Root>

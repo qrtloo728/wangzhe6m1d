@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="Assets.Scripts.GameLogic.CActorInfo">
+  <ActorName>夏侯惇</ActorName>
+  <useMecanim>0</useMecanim>
+  <ArtPrefabLOD Type="System.String[]">
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1261_XiaHouDun_LOD1</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1261_XiaHouDun_LOD1</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1261_XiaHouDun_LOD2</Item>
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1261_XiaHouDun_LOD3</Item>
+  </ArtPrefabLOD>
+  <enemyCampUseDifferentArtPrefab>0</enemyCampUseDifferentArtPrefab>
+  <ArtLobbyShowLOD Type="System.String[]">
+    <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1261_XiaHouDun_Show1</Item>
+    <Item Type="System.String"></Item>
+  </ArtLobbyShowLOD>
+  <SoundBanks Type="System.String[]">
+    <Item Type="System.String">Hero_XiaHouDun_VO</Item>
+    <Item Type="System.String">Hero_XiaHouDun_SFX</Item>
+  </SoundBanks>
+  <SkinPrefab Type="Assets.Scripts.GameLogic.SkinElement[]">
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1262_XiaHouDun_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1262_XiaHouDun_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1262_XiaHouDun_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1262_XiaHouDun_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1262_XiaHouDun_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/Avatar/1263_XiaHouDun_%_Lod1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/Avatar/1263_XiaHouDun_%_Lod1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/Avatar/1263_XiaHouDun_%_Lod2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/Avatar/1263_XiaHouDun_%_Lod3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/Avatar/1263_XiaHouDun_%_Show</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1264_XiaHouDun_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1264_XiaHouDun_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1264_XiaHouDun_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1264_XiaHouDun_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1264_XiaHouDun_Show1</Item>
+        <Item Type="System.String"></Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.SkinElement">
+      <ArtSkinPrefabLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1265_XiaHouDun_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1265_XiaHouDun_LOD1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1265_XiaHouDun_LOD2</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1265_XiaHouDun_LOD3</Item>
+      </ArtSkinPrefabLOD>
+      <enemyCampUseDifferentArtSkinPrefab>0</enemyCampUseDifferentArtSkinPrefab>
+      <ArtSkinLobbyShowLOD Type="System.String[]">
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1265_XiaHouDun_Show1</Item>
+        <Item Type="System.String">Prefab_Characters/Prefab_Hero/126_XiaHouDun/1265_XiaHouDun_Show1</Item>
+      </ArtSkinLobbyShowLOD>
+      <AdvanceSkin Type="Assets.Scripts.GameLogic.AdvanceSkinElement[]" />
+    </Item>
+  </SkinPrefab>
+  <UseNewAnimaSoundType>0</UseNewAnimaSoundType>
+  <shadowHeight>2.735391</shadowHeight>
+  <AnimaSound Type="Assets.Scripts.GameLogic.AnimaSoundElement[]">
+    <Item Type="Assets.Scripts.GameLogic.AnimaSoundElement">
+      <AnimaName>Come</AnimaName>
+      <SoundName>Play_XiaHouDun_VO_Come</SoundName>
+      <RepeatRate>0</RepeatRate>
+      <MaxRepeatCount>0</MaxRepeatCount>
+      <NextElementIndex>0</NextElementIndex>
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.AnimaSoundElement">
+      <AnimaName>Rank_Come1</AnimaName>
+      <SoundName>Play_XiaHouDun_VO_Come</SoundName>
+      <RepeatRate>0</RepeatRate>
+      <MaxRepeatCount>0</MaxRepeatCount>
+      <NextElementIndex>0</NextElementIndex>
+    </Item>
+  </AnimaSound>
+  <TransConfigs Type="Assets.Scripts.GameLogic.TransformConfig[]">
+    <Item Type="Assets.Scripts.GameLogic.TransformConfig">
+      <Offset Type="UnityEngine.Vector3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Offset>
+      <Scale>1</Scale>
+    </Item>
+    <Item Type="Assets.Scripts.GameLogic.TransformConfig">
+      <Offset Type="UnityEngine.Vector3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Offset>
+      <Scale>1.048</Scale>
+    </Item>
+  </TransConfigs>
+  <InteractiveAnimaVfx Type="Assets.Scripts.GameLogic.InteractiveAnimaVfxElement[]" />
+  <LobbySoundBanks Type="System.String[]">
+    <Item Type="System.String">Hero_XiaHouDun_Show</Item>
+  </LobbySoundBanks>
+  <LobbyScale>1.1</LobbyScale>
+  <collisionType>2</collisionType>
+  <iCollisionCenter Type="VInt3">
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </iCollisionCenter>
+  <iCollisionSize Type="VInt3">
+    <x>400</x>
+    <y>400</y>
+    <z>400</z>
+  </iCollisionSize>
+  <iBulletHeight>1200</iBulletHeight>
+  <iAttackLineHeight>4500</iAttackLineHeight>
+  <BtResourcePath></BtResourcePath>
+  <deadAgePath></deadAgePath>
+  <ActSounds Type="Assets.Scripts.GameLogic.ActSound[]">
+    <Item Type="Assets.Scripts.GameLogic.ActSound">
+      <SoundActType>0</SoundActType>
+      <ActSoundName>Play_XiaHouDun_VO_Move</ActSoundName>
+    </Item>
+  </ActSounds>
+  <callMonsterConfigID>0</callMonsterConfigID>
+  <hudHeight>0</hudHeight>
+  <HudType>0</HudType>
+</Root>

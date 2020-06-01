@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="200.UGC道具表">
+  <Sheet Name="UGC道具配置">
+    <Columns>
+      <Column Name="ID" Type="System.UInt64" WidthInCharacters="10" />
+      <Column Name="名字" Type="System.String" WidthInCharacters="16" />
+      <Column Name="icon路径" Type="System.String" WidthInCharacters="20" />
+      <Column Name="道具描述" Type="System.String" WidthInCharacters="25" />
+      <Column Name="Lua入口" Type="System.String" WidthInCharacters="25" />
+      <Column Name="是否局内道具" Type="System.Byte" WidthInCharacters="16" />
+      <Column Name="分类" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="堆叠上限" Type="System.Int32" WidthInCharacters="12" />
+      <Column Name="是否开启后台校验" Type="System.Byte" WidthInCharacters="25" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="UGC道具分类">
+    <Columns>
+      <Column Name="ID" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="分类名字" Type="System.String" WidthInCharacters="16" />
+    </Columns>
+  </Sheet>
+</Root>

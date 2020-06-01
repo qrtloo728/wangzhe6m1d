@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="94.装备库表_elu">
+  <Sheet Name="装备库表" FontColor="FFFFFFFF" FillColor="FF806000">
+    <Columns>
+      <Column Name="装备ID" Type="System.UInt16" WidthInCharacters="12" />
+      <Column Name="远程装备ID" Type="System.UInt16" WidthInCharacters="12" />
+      <Column Name="是否是附属装备" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="是否专属某个关卡" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="专属关卡等级" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="装备名称" Type="System.String" WidthInCharacters="17" />
+      <Column Name="装备功能大分类" Type="System.Byte" WidthInCharacters="17" />
+      <Column Name="装备分类" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="装备价值计算分类" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="同装备价值衰减万分比" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="装备等级" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="装备档次" Type="System.String" WidthInCharacters="8" />
+      <Column Name="装备类型" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="用途类型" Type="System.String" WidthInCharacters="18" />
+      <Column Name="堆叠数" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="装备分组" Type="System.UInt16" WidthInCharacters="8" />
+      <Column Name="互斥装备组ID" Type="System.Byte" WidthInCharacters="13" />
+      <Column Name="惩戒附魔" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="装备图标" Type="System.String" WidthInCharacters="12" />
+      <Column Name="背包槽位显示特殊图标" Type="System.String" WidthInCharacters="20" />
+      <Column Name="装备图标动态路径" Type="System.String" WidthInCharacters="20" />
+      <Column Name="解禁时长" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="装备价格" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="装备售价" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="是否顶级装" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="未开放" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="购买直接使用" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="是否需要在商店屏蔽" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="是否为强制推荐" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="掉落对应的神符ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="前置装备ID" Type="System.String" WidthInCharacters="12" />
+      <Column Name="必要装备ID" Type="System.String" WidthInCharacters="12" />
+      <Column Name="限量数量" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="是否为阵营限量" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="限量再生时长" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="攻击力" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="攻击速度" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="暴击" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="生命偷取" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="法术强度" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="冷却缩减" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="法力值" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="法力回复" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="法力回复比例" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="护甲" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="魔抗" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="生命值" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="生命回复" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="移动速度" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="普攻强度" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="被动技能1ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="被动技能1描述" Type="System.String" WidthInCharacters="66" />
+      <Column Name="被动技能1唯一被动组" Type="System.UInt16" WidthInCharacters="22" />
+      <Column Name="被动技能1拔除技能效果ID1" Type="System.UInt32" WidthInCharacters="30" />
+      <Column Name="被动技能1拔除技能效果ID2" Type="System.UInt32" WidthInCharacters="29" />
+      <Column Name="被动技能1拔除技能效果ID3" Type="System.UInt32" WidthInCharacters="31" />
+      <Column Name="被动技能2ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="被动技能2描述" Type="System.String" WidthInCharacters="42" />
+      <Column Name="被动技能2唯一被动组" Type="System.UInt16" WidthInCharacters="26" />
+      <Column Name="被动技能2拔除技能效果ID1" Type="System.UInt32" WidthInCharacters="33" />
+      <Column Name="被动技能2拔除技能效果ID2" Type="System.UInt32" WidthInCharacters="28" />
+      <Column Name="被动技能2拔除技能效果ID3" Type="System.UInt32" WidthInCharacters="22" />
+      <Column Name="被动技能3ID" Type="System.UInt32" WidthInCharacters="13" />
+      <Column Name="被动技能3描述" Type="System.String" WidthInCharacters="13" />
+      <Column Name="被动技能3唯一被动组" Type="System.UInt16" WidthInCharacters="13" />
+      <Column Name="被动技能3拔除技能效果ID1" Type="System.UInt32" WidthInCharacters="13" />
+      <Column Name="被动技能3拔除技能效果ID2" Type="System.UInt32" WidthInCharacters="13" />
+      <Column Name="被动技能3拔除技能效果ID3" Type="System.UInt32" WidthInCharacters="13" />
+      <Column Name="效果组合1ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="效果组合1被动效果描述" Type="System.String" WidthInCharacters="86" />
+      <Column Name="效果组合1唯一被动组" Type="System.UInt16" WidthInCharacters="19" />
+      <Column Name="效果组合2ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="效果组合2被动效果描述" Type="System.String" WidthInCharacters="62" />
+      <Column Name="效果组合2唯一被动组" Type="System.UInt16" WidthInCharacters="12" />
+      <Column Name="效果组合3ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="效果组合3被动效果描述" Type="System.String" WidthInCharacters="62" />
+      <Column Name="效果组合3唯一被动组" Type="System.UInt16" WidthInCharacters="22" />
+      <Column Name="主动技能1ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="主动技能1槽位" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="主动技能1组ID" Type="System.UInt32" WidthInCharacters="52" />
+      <Column Name="主动技能1描述" Type="System.String" WidthInCharacters="77" />
+      <Column Name="主动技能1额外描述" Type="System.String" WidthInCharacters="54" />
+      <Column Name="主动技能2ID" Type="System.UInt32" WidthInCharacters="12" />
+      <Column Name="主动技能2槽位" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="主动技能2组ID" Type="System.UInt32" WidthInCharacters="77" />
+      <Column Name="主动技能2描述" Type="System.String" WidthInCharacters="77" />
+      <Column Name="主动技能2额外描述" Type="System.String" WidthInCharacters="54" />
+      <Column Name="被动拔除技能效果Id1" Type="System.String" WidthInCharacters="18" />
+      <Column Name="被动拔除技能效果Id2" Type="System.String" WidthInCharacters="12" />
+      <Column Name="被动拔除技能效果Id3" Type="System.String" WidthInCharacters="12" />
+      <Column Name="简述" Type="System.String" WidthInCharacters="73" />
+      <Column Name="简述2" Type="System.String" WidthInCharacters="73" />
+      <Column Name="附加描述" Type="System.String" WidthInCharacters="73" />
+      <Column Name="效果说明标签" Type="System.String" WidthInCharacters="73" />
+      <Column Name="备注" Type="System.String" WidthInCharacters="27" />
+      <Column Name="额外主动技能ID" Type="System.String" WidthInCharacters="15" />
+      <Column Name="额外主动技能描述" Type="System.String" WidthInCharacters="55" />
+      <Column Name="被动技能不对傀儡生效" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="装备介绍页面链接" Type="System.String" WidthInCharacters="68" />
+      <Column Name="备注1" Type="System.String" WidthInCharacters="9" />
+      <Column Name="备注2" Type="System.String" WidthInCharacters="55" />
+      <Column Name="备注3" Type="System.String" WidthInCharacters="66" />
+      <Column Name="备注4" Type="System.String" WidthInCharacters="56" />
+      <Column Name="立即拔除装备效果" Type="System.Byte" WidthInCharacters="19" />
+      <Column Name="叙事描述" Type="System.String" WidthInCharacters="9" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="逃杀装备发育值" FontColor="FFFFFFFF" FillColor="FFFFD966">
+    <Columns>
+      <Column Name="装备ID" Type="System.UInt16" WidthInCharacters="9" />
+      <Column Name="装备名称" Type="System.String" WidthInCharacters="23" />
+      <Column Name="逃杀战力1英雄类型ID" Type="System.Byte" WidthInCharacters="22" />
+      <Column Name="逃杀战力1战力" Type="System.Int32" WidthInCharacters="21" />
+      <Column Name="逃杀战力2英雄类型ID" Type="System.Byte" WidthInCharacters="23" />
+      <Column Name="逃杀战力2战力" Type="System.Int32" WidthInCharacters="18" />
+      <Column Name="逃杀战力3英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力3战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力4英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力4战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力5英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力5战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力6英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力6战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力7英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力7战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力8英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力8战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力9英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力9战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力10英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力10战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力11英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力11战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力12英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力12战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力13英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力13战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力14英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力14战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力15英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力15战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力16英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力16战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力17英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力17战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力18英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力18战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力19英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力19战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="逃杀战力20英雄类型ID" Type="System.Byte" WidthInCharacters="0" />
+      <Column Name="逃杀战力20战力" Type="System.Int32" WidthInCharacters="0" />
+      <Column Name="法系折损率" Type="System.String" WidthInCharacters="9" />
+      <Column Name="物系折损率" Type="System.String" WidthInCharacters="9" />
+      <Column Name="攻击力" Type="System.String" WidthInCharacters="9" />
+      <Column Name="攻击速度" Type="System.String" WidthInCharacters="9" />
+      <Column Name="暴击" Type="System.String" WidthInCharacters="9" />
+      <Column Name="生命偷取" Type="System.String" WidthInCharacters="9" />
+      <Column Name="法术强度" Type="System.String" WidthInCharacters="9" />
+      <Column Name="冷却缩减" Type="System.String" WidthInCharacters="9" />
+      <Column Name="法力值" Type="System.String" WidthInCharacters="9" />
+      <Column Name="法力回复" Type="System.String" WidthInCharacters="9" />
+      <Column Name="法力回复比例" Type="System.String" WidthInCharacters="12" />
+      <Column Name="护甲" Type="System.String" WidthInCharacters="9" />
+      <Column Name="魔抗" Type="System.String" WidthInCharacters="9" />
+      <Column Name="生命值" Type="System.String" WidthInCharacters="9" />
+      <Column Name="生命回复" Type="System.String" WidthInCharacters="9" />
+      <Column Name="移动速度" Type="System.String" WidthInCharacters="12" />
+      <Column Name="普攻强度" Type="System.String" WidthInCharacters="12" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="互斥装备组" FillColor="FF00B0F0">
+    <Columns>
+      <Column Name="互斥装备组ID" Type="System.Byte" WidthInCharacters="14" />
+      <Column Name="备注" Type="System.String" WidthInCharacters="16" />
+      <Column Name="互斥装备ID1" Type="System.UInt16" WidthInCharacters="15" />
+      <Column Name="互斥装备ID2" Type="System.UInt16" WidthInCharacters="14" />
+      <Column Name="互斥装备ID3" Type="System.UInt16" WidthInCharacters="13" />
+      <Column Name="互斥装备ID4" Type="System.UInt16" WidthInCharacters="16" />
+      <Column Name="互斥装备ID5" Type="System.UInt16" WidthInCharacters="15" />
+      <Column Name="互斥装备ID6" Type="System.UInt16" WidthInCharacters="15" />
+      <Column Name="互斥装备ID7" Type="System.UInt16" WidthInCharacters="16" />
+      <Column Name="互斥装备ID8" Type="System.UInt16" WidthInCharacters="17" />
+      <Column Name="互斥装备ID9" Type="System.UInt16" WidthInCharacters="16" />
+      <Column Name="互斥装备ID10" Type="System.UInt16" WidthInCharacters="15" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="大神出装检查表" FontColor="FFFFFFFF" FillColor="FF0070C0">
+    <Columns>
+      <Column Name="检查类型" Type="System.String" WidthInCharacters="21" />
+      <Column Name="检查参数" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="检查数量" Type="System.Int32" WidthInCharacters="9" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="装备价值权重" FillColor="FF00B0F0">
+    <Columns>
+      <Column Name="英雄ID" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="武将名" Type="System.String" WidthInCharacters="9" />
+      <Column Name="装备类别1" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别2" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别3" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别4" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别5" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别6" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别7" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别8" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别9" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别10" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别11" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别12" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别13" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别14" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别15" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="装备类别16" Type="System.UInt32" WidthInCharacters="9" />
+    </Columns>
+  </Sheet>
+</Root>

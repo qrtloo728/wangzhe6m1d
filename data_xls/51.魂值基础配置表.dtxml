@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="51.魂值基础配置表">
+  <Sheet Name="魂值基础配置表">
+    <Columns>
+      <Column Name="魂值分配ID" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="英雄魂值等级" Type="System.UInt32" WidthInCharacters="16" />
+      <Column Name="升级所需魂值经验" Type="System.UInt32" WidthInCharacters="20" />
+      <Column Name="击杀提供魂值基础经验" Type="System.UInt32" WidthInCharacters="25" />
+      <Column Name="首杀额外奖励" Type="System.UInt32" WidthInCharacters="25" />
+      <Column Name="对应图标路径" Type="System.String" WidthInCharacters="16" />
+      <Column Name="击杀提供金币" Type="System.UInt16" WidthInCharacters="12" />
+      <Column Name="首杀金币加成" Type="System.UInt16" WidthInCharacters="12" />
+      <Column Name="击杀傀儡提供魂值基础经验" Type="System.UInt32" WidthInCharacters="25" />
+      <Column Name="击杀傀儡提供金币" Type="System.UInt16" WidthInCharacters="22" />
+      <Column Name="备注" Type="System.String" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="英雄击杀加成">
+    <Columns>
+      <Column Name="魂值分配ID" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="英雄状态" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="经验BUFF" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="人头金币BUFF" Type="System.Int32" WidthInCharacters="13" />
+      <Column Name="奖金包金币数量" Type="System.UInt32" WidthInCharacters="14" />
+      <Column Name="获得一次击杀后英雄状态" Type="System.Int32" WidthInCharacters="24" />
+      <Column Name="获得一次助攻后英雄状态" Type="System.Int32" WidthInCharacters="25" />
+      <Column Name="获得一次死亡后英雄状态" Type="System.Int32" WidthInCharacters="21" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="魂值影响" FontColor="FFCCFFCC" FillColor="FFFF0000">
+    <Columns>
+      <Column Name="ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="扩展定位" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="魂值等级" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="物理攻击力" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="法术攻击力" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="物理防御力" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="法术防御力" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="最大生命" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="暴击率" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="物理护甲穿透" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="法术护甲穿透" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="物理吸血" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="法术吸血" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="抗暴率" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="暴击效果" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="真实伤害" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="真实减伤" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="移速" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="生命回复" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="韧性" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="攻速加成" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="普攻伤害加成" Type="System.Int32" WidthInCharacters="7" />
+      <Column Name="冷却缩减" Type="System.Int32" WidthInCharacters="7" />
+    </Columns>
+  </Sheet>
+</Root>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="119.预设阵型">
+  <Sheet Name="预设阵型">
+    <Columns>
+      <Column Name="ID" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="阵型编号" Type="System.String" WidthInCharacters="10" />
+      <Column Name="人口数量" Type="System.String" WidthInCharacters="10" />
+      <Column Name="阵型子编号" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="阵型名称" Type="System.String" WidthInCharacters="10" />
+      <Column Name="阵型描述" Type="System.String" WidthInCharacters="19" />
+      <Column Name="阵型图片" Type="System.String" WidthInCharacters="10" />
+      <Column Name="前排数量" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排1Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排1X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排2Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排2X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排3Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排3X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排4Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排4X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排5Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排5X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排6Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排6X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排7Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排7X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排8Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排8X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排9Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排9X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排10Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="前排10X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排数量" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排1Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排1X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排2Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排2X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排3Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排3X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排4Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排4X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排5Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排5X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排6Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排6X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排7Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排7X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排8Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排8X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排9Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排9X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排10Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="后排10X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客数量" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客1Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客1X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客2Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客2X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客3Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客3X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客4Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客4X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客5Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客5X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客6Y" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客6X" Type="System.Byte" WidthInCharacters="10" />
+      <Column Name="刺客7Y" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="刺客7X" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="刺客8Y" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="刺客8X" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="刺客9Y" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="刺客9X" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="刺客10Y" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="刺客10X" Type="System.Byte" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+</Root>

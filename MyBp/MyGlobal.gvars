@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <GlobalVariable>
+    <Name>GlobalRedTowerMonsterPoint</Name>
+    <TypeName>BluePrint.GraphLogic.SGame.UnityObject</TypeName>
+    <ExportTypeName>BluePrint.GraphLogic.SGame.UnityObject</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue></DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>GlobalBlueTowerMonsterPoint</Name>
+    <TypeName>BluePrint.GraphLogic.SGame.UnityObject</TypeName>
+    <ExportTypeName>BluePrint.GraphLogic.SGame.UnityObject</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue></DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>GlobalAllPlayerIDs</Name>
+    <TypeName>System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</TypeName>
+    <ExportTypeName>System.Int32.Array</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue />
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>GlobalAllCampAreaStr</Name>
+    <TypeName>System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</TypeName>
+    <ExportTypeName>System.String.Array</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue />
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>JueDou</Name>
+    <TypeName>System.Boolean</TypeName>
+    <ExportTypeName>System.Boolean</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue>0</DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>IsFight</Name>
+    <TypeName>System.Boolean</TypeName>
+    <ExportTypeName>System.Boolean</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue>0</DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>Mpb</Name>
+    <TypeName>System.Int32</TypeName>
+    <ExportTypeName>System.Int32</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue>0</DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>Mp</Name>
+    <TypeName>System.Int32</TypeName>
+    <ExportTypeName>System.Int32</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue>0</DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_RedCamp1_PlayerIDs</Name>
+    <TypeName>System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</TypeName>
+    <ExportTypeName>System.Int32.Array</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue />
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_BlueCamp2_PlayerIDs</Name>
+    <TypeName>System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</TypeName>
+    <ExportTypeName>System.Int32.Array</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue />
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_RedCamp1_AreaStr</Name>
+    <TypeName>System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</TypeName>
+    <ExportTypeName>System.String.Array</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue />
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_BlueCamp2_AreaStr</Name>
+    <TypeName>System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</TypeName>
+    <ExportTypeName>System.String.Array</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue />
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_IsMoni4V4</Name>
+    <TypeName>System.Boolean</TypeName>
+    <ExportTypeName>System.Boolean</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue>0</DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>RealPlayerNum</Name>
+    <TypeName>System.Int32</TypeName>
+    <ExportTypeName>System.Int32</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue>0</DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_RedDefendSuccessArea</Name>
+    <TypeName>System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</TypeName>
+    <ExportTypeName>System.Int32.Array</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue />
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_BlueDefendSuccessArea</Name>
+    <TypeName>System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</TypeName>
+    <ExportTypeName>System.Int32.Array</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue />
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_CreateRobotIDs</Name>
+    <TypeName>BluePrint.GraphLogic.SGame.GLDictionary</TypeName>
+    <ExportTypeName>BluePrint.GraphLogic.SGame.GLDictionary</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue></DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_CreateAreas</Name>
+    <TypeName>BluePrint.GraphLogic.SGame.GLDictionary</TypeName>
+    <ExportTypeName>BluePrint.GraphLogic.SGame.GLDictionary</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue></DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_RedIDContolActors</Name>
+    <TypeName>BluePrint.GraphLogic.SGame.GLDictionary</TypeName>
+    <ExportTypeName>BluePrint.GraphLogic.SGame.GLDictionary</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue></DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_BlueIDContolActors</Name>
+    <TypeName>BluePrint.GraphLogic.SGame.GLDictionary</TypeName>
+    <ExportTypeName>BluePrint.GraphLogic.SGame.GLDictionary</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue></DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_RedAreaTToPlayerID</Name>
+    <TypeName>BluePrint.GraphLogic.SGame.GLDictionary</TypeName>
+    <ExportTypeName>BluePrint.GraphLogic.SGame.GLDictionary</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue></DefaultValue>
+  </GlobalVariable>
+  <GlobalVariable>
+    <Name>G_BlueAreaTToPlayerID</Name>
+    <TypeName>BluePrint.GraphLogic.SGame.GLDictionary</TypeName>
+    <ExportTypeName>BluePrint.GraphLogic.SGame.GLDictionary</ExportTypeName>
+    <AllowRuntimeChange>1</AllowRuntimeChange>
+    <DefaultValue></DefaultValue>
+  </GlobalVariable>
+</Root>

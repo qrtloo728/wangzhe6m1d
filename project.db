@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="BluePrint.UGC.Project.UGCProject">
+  <ProjectName>juntuanzhanzheng</ProjectName>
+  <ProjectUUID>29</ProjectUUID>
+  <VersionCode>20186114</VersionCode>
+  <PublishVersionCode>100056</PublishVersionCode>
+  <InternalUrl></InternalUrl>
+  <SvrEnvVar>0</SvrEnvVar>
+  <PublishVersionText>0.1.134.216</PublishVersionText>
+  <VersionText>1.52.4.2</VersionText>
+  <CreateTime>2020/4/29 18:29:27</CreateTime>
+  <MainEntryScript>Lua/UX/MainEntryOnline.lua</MainEntryScript>
+  <GameOnline>1</GameOnline>
+</Root>

@@ -1,0 +1,1698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="11.英雄信息表_Xavier">
+  <Sheet Name="英雄信息" FontColor="FFFFFFFF" FillColor="FF262626">
+    <Columns>
+      <Column Name="武将ID" Type="System.UInt32" WidthInCharacters="7" />
+      <Column Name="武将名" Type="System.String" WidthInCharacters="18" />
+      <Column Name="英雄头衔" Type="System.String" WidthInCharacters="8" />
+      <Column Name="武将名拼音" Type="System.String" WidthInCharacters="27" />
+      <Column Name="英雄名语音事件" Type="System.String" WidthInCharacters="27" />
+      <Column Name="英雄描述" Type="System.String" WidthInCharacters="37" />
+      <Column Name="英雄故事链接" Type="System.String" WidthInCharacters="111" />
+      <Column Name="免责声明" Type="System.String" WidthInCharacters="8" />
+      <Column Name="英雄图片" Type="System.String" WidthInCharacters="8" />
+      <Column Name="角色信息路径" Type="System.String" WidthInCharacters="8" TypeInfo="BluePrint.Common.ComponentModel.ResourceSelectableAttribute(Extension:.actorinfo,TypeDescription:ActorInfo文件)" />
+      <Column Name="被动技能1" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能2" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能3" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能4" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="被动技能5" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能1ID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能1PassiveID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能1解锁星级" Type="System.UInt16" WidthInCharacters="8" />
+      <Column Name="技能1关联技能" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能1技能0级可用" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能1不可升级" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能1豆ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="技能2ID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能2PassiveID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能2解锁星级" Type="System.UInt16" WidthInCharacters="8" />
+      <Column Name="技能2关联技能" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能2技能0级可用" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能2不可升级" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能2豆ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="技能3ID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能3PassiveID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能3解锁星级" Type="System.UInt16" WidthInCharacters="8" />
+      <Column Name="技能3关联技能" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能3技能0级可用" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能3不可升级" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能3豆ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="技能4ID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能4PassiveID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能4解锁星级" Type="System.UInt16" WidthInCharacters="8" />
+      <Column Name="技能4关联技能" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能4技能0级可用" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能4不可升级" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能4豆ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="技能5ID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能5PassiveID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能5解锁星级" Type="System.UInt16" WidthInCharacters="8" />
+      <Column Name="技能5关联技能" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能5技能0级可用" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能5不可升级" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能5豆ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="技能6ID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能6PassiveID" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能6解锁星级" Type="System.UInt16" WidthInCharacters="8" />
+      <Column Name="技能6关联技能" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能6技能0级可用" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能6不可升级" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="技能6豆ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="普攻攻击距离类型" Type="System.String" WidthInCharacters="8" />
+      <Column Name="视野范围" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="模型缩放系数" Type="System.Int32" WidthInCharacters="14" />
+      <Column Name="基础生命回复" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="成长生命回复" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="成长攻击速度" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础生命" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础攻击力" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础法术强度" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础护甲" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础抗性" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础普攻强度" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础移动速度" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="高频位移" Type="System.String" WidthInCharacters="8" />
+      <Column Name="超长位移" Type="System.String" WidthInCharacters="8" />
+      <Column Name="稳定硬控" Type="System.String" WidthInCharacters="8" />
+      <Column Name="超远POKE" Type="System.String" WidthInCharacters="8" />
+      <Column Name="普攻输出" Type="System.String" WidthInCharacters="8" />
+      <Column Name="特殊处理" Type="System.String" WidthInCharacters="8" />
+      <Column Name="攻击范围描述" Type="System.String" WidthInCharacters="8" />
+      <Column Name="基础攻击速度" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础暴击率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="基础暴击效果" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="生命成长率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="攻击力成长率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="法强成长率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="护甲成长率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="抗性成长率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="普攻强度成长率" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="初始星级" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="统计用职责" Type="System.String" WidthInCharacters="8" />
+      <Column Name="英雄定位" Type="System.String" WidthInCharacters="8" />
+      <Column Name="伤害类型" Type="System.String" WidthInCharacters="8" />
+      <Column Name="扩展定位" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="主要职业" Type="System.String" WidthInCharacters="8" />
+      <Column Name="统计用职业" Type="System.String" WidthInCharacters="8" />
+      <Column Name="次要职业" Type="System.String" WidthInCharacters="8" />
+      <Column Name="描述1" Type="System.String" WidthInCharacters="8" />
+      <Column Name="描述2" Type="System.String" WidthInCharacters="8" />
+      <Column Name="解锁需要英雄等级" Type="System.UInt16" WidthInCharacters="8" />
+      <Column Name="解锁需要英雄品质" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="解锁需要英雄品阶" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="解锁需要英雄星级" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="推荐站位" Type="System.String" WidthInCharacters="8" />
+      <Column Name="生存能力" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="攻击伤害" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="技能效果" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="上手难度" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="初始装备ID1" Type="System.String" WidthInCharacters="8" />
+      <Column Name="初始装备ID2" Type="System.String" WidthInCharacters="8" />
+      <Column Name="初始装备ID3" Type="System.String" WidthInCharacters="8" />
+      <Column Name="初始装备ID4" Type="System.String" WidthInCharacters="8" />
+      <Column Name="初始装备ID5" Type="System.String" WidthInCharacters="8" />
+      <Column Name="初始装备ID6" Type="System.String" WidthInCharacters="8" />
+      <Column Name="普攻类型" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="英雄档次" Type="System.String" WidthInCharacters="8" />
+      <Column Name="显示屏蔽" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="英雄面板排序Id" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="入门AI" Type="System.String" WidthInCharacters="8" />
+      <Column Name="简单AI" Type="System.String" WidthInCharacters="8" />
+      <Column Name="一般AI" Type="System.String" WidthInCharacters="8" />
+      <Column Name="困难AI" Type="System.String" WidthInCharacters="8" />
+      <Column Name="温暖简单AI" Type="System.String" WidthInCharacters="8" />
+      <Column Name="温暖AI" Type="System.String" WidthInCharacters="8" />
+      <Column Name="五军AI" Type="System.String" WidthInCharacters="8" />
+      <Column Name="逃杀AI" Type="System.String" WidthInCharacters="8" />
+      <Column Name="觉醒描述" Type="System.String" WidthInCharacters="8" />
+      <Column Name="觉醒显示天赋ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="觉醒显示皮肤ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="能量类型" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="能量" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="能量成长" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="能量回复" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="能量回复成长" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="能量额外回复" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="能量额外回复成长" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="局内小技巧" Type="System.String" WidthInCharacters="8" />
+      <Column Name="符文推荐ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="出生动画" Type="System.String" WidthInCharacters="70" />
+      <Column Name="复活动画" Type="System.String" WidthInCharacters="70" />
+      <Column Name="立即复活动画" Type="System.String" WidthInCharacters="67" />
+      <Column Name="死亡后是否响应操作" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="托管AI有效" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="标签" Type="System.String" WidthInCharacters="8" />
+      <Column Name="归属标签" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="高段位平均评价分" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="低段位平均评价分" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="羁绊关系1" Type="System.UInt32" WidthInCharacters="6" />
+      <Column Name="羁绊关系2" Type="System.UInt32" WidthInCharacters="6" />
+      <Column Name="羁绊关系3" Type="System.UInt32" WidthInCharacters="21" />
+      <Column Name="引导分路" Type="System.String" WidthInCharacters="34" />
+      <Column Name="推荐分路" Type="System.String" WidthInCharacters="34" />
+      <Column Name="额外推荐分路1" Type="System.String" WidthInCharacters="8" />
+      <Column Name="额外推荐分路2" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="推荐召唤师技能" Type="System.String" WidthInCharacters="8" />
+      <Column Name="团战位置" Type="System.String" WidthInCharacters="8" />
+      <Column Name="Buff资源类别" Type="System.String" WidthInCharacters="8" />
+      <Column Name="Buff需求类别" Type="System.String" WidthInCharacters="8" />
+      <Column Name="英雄位置偏好向量坦克" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="英雄位置偏好向量突进" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="英雄位置偏好向量法师" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="英雄位置偏好向量射手" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="英雄位置偏好向量辅助" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="Mvp修正值" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="逃杀英雄类型" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="装备价值计算分类" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="是否裁减" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="关卡动态英雄" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="是否双形态英雄" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID1" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID2" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID3" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID4" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID5" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID6" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID7" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID8" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID9" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID10" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID11" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="第二形态技能ID12" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="是否隐藏小地图上的图标" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="推荐天赋" Type="System.String" WidthInCharacters="8" />
+      <Column Name="分享视频地址" Type="System.String" WidthInCharacters="8" />
+      <Column Name="不做实时违规检测的类型" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="不做实时违规检测的模式" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="海外是否屏蔽" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="蓝图" Type="System.String" WidthInCharacters="8" />
+      <Column Name="逻辑图" Type="System.String" WidthInCharacters="8" TypeInfo="BluePrint.Common.ComponentModel.ResourceSelectableAttribute(Extension:.gl,TypeDescription:gl文件)" />
+      <Column Name="英雄修炼特权符文推荐ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="技能1优先级" Type="System.UInt32" WidthInCharacters="13" />
+      <Column Name="技能2优先级" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="技能3优先级" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="技能4优先级" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="一级主加技能" Type="System.UInt32" WidthInCharacters="13" />
+      <Column Name="自动使用铭文满级方案ID" Type="System.String" WidthInCharacters="21" />
+      <Column Name="是否拥有英雄语音包" Type="System.Byte" WidthInCharacters="18" />
+      <Column Name="CV录音演员名" Type="System.String" WidthInCharacters="8" />
+      <Column Name="跳转语音包获取入口" Type="System.UInt32" WidthInCharacters="8" />
+    </Columns>
+    <Row>
+      <Cell Name="武将ID">20001</Cell>
+      <Cell Name="武将名">白起2</Cell>
+      <Cell Name="英雄头衔">最终兵器</Cell>
+      <Cell Name="武将名拼音">BaiQi2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_baiqi</Cell>
+      <Cell Name="英雄描述">人间最强的兵器，你手中所向披靡的利剑。</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/120</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301200</Cell>
+      <Cell Name="角色信息路径">actorInfo/baiqiActorInfo.actorinfo</Cell>
+      <Cell Name="技能1ID">12000</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">12010</Cell>
+      <Cell Name="技能2PassiveID">12010</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能2豆ID">12010</Cell>
+      <Cell Name="技能3ID">12030</Cell>
+      <Cell Name="技能3PassiveID">12030</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">12020</Cell>
+      <Cell Name="技能4PassiveID">12000</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻近战类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">77</Cell>
+      <Cell Name="成长生命回复">73521</Cell>
+      <Cell Name="成长攻击速度">1000000</Cell>
+      <Cell Name="基础生命">3084</Cell>
+      <Cell Name="基础攻击力">158</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">98</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3900</Cell>
+      <Cell Name="攻击范围描述">近程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">2938000</Cell>
+      <Cell Name="攻击力成长率">93000</Cell>
+      <Cell Name="法强成长率">0</Cell>
+      <Cell Name="护甲成长率">180000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">前排肉盾</Cell>
+      <Cell Name="英雄定位">生存</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">1</Cell>
+      <Cell Name="主要职业">坦克</Cell>
+      <Cell Name="统计用职业">坦克</Cell>
+      <Cell Name="描述1">团控</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">前排</Cell>
+      <Cell Name="生存能力">8</Cell>
+      <Cell Name="攻击伤害">3</Cell>
+      <Cell Name="技能效果">4</Cell>
+      <Cell Name="上手难度">4</Cell>
+      <Cell Name="初始装备ID1">10071</Cell>
+      <Cell Name="初始装备ID2">10072</Cell>
+      <Cell Name="初始装备ID3">10073</Cell>
+      <Cell Name="初始装备ID4">10074</Cell>
+      <Cell Name="初始装备ID5">10075</Cell>
+      <Cell Name="初始装备ID6">10076</Cell>
+      <Cell Name="英雄档次">5</Cell>
+      <Cell Name="显示屏蔽">1</Cell>
+      <Cell Name="英雄面板排序Id">4</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">0</Cell>
+      <Cell Name="能量">420</Cell>
+      <Cell Name="能量成长">89</Cell>
+      <Cell Name="能量回复">149000</Cell>
+      <Cell Name="能量回复成长">14600</Cell>
+      <Cell Name="局内小技巧">白起在所有坦克中拥有最高的AOE输出能力，团战中请不要忽视这份强大的DPS</Cell>
+      <Cell Name="符文推荐ID">105</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">1</Cell>
+      <Cell Name="归属标签">1</Cell>
+      <Cell Name="高段位平均评价分">690</Cell>
+      <Cell Name="低段位平均评价分">719</Cell>
+      <Cell Name="引导分路">分路-上路</Cell>
+      <Cell Name="推荐分路">分路-上路</Cell>
+      <Cell Name="额外推荐分路1">分路-辅助</Cell>
+      <Cell Name="推荐召唤师技能">斩杀</Cell>
+      <Cell Name="团战位置">团战-前排</Cell>
+      <Cell Name="Buff资源类别">红/蓝Buff</Cell>
+      <Cell Name="Buff需求类别">无需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">70</Cell>
+      <Cell Name="英雄位置偏好向量突进">0</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">0</Cell>
+      <Cell Name="英雄位置偏好向量辅助">30</Cell>
+      <Cell Name="Mvp修正值">10504</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">坚若磐石</Cell>
+      <Cell Name="逻辑图">MyBp/ComonHeroAI.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">105</Cell>
+      <Cell Name="技能1优先级">2</Cell>
+      <Cell Name="技能2优先级">1</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">1</Cell>
+      <Cell Name="自动使用铭文满级方案ID">105</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20002</Cell>
+      <Cell Name="武将名">夏侯惇2</Cell>
+      <Cell Name="英雄头衔">不羁之风</Cell>
+      <Cell Name="武将名拼音">XiaHouDun2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_xiahoudun</Cell>
+      <Cell Name="英雄描述">随心所欲，是人生的信条；独眼，是男人的浪漫！</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/126</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301260</Cell>
+      <Cell Name="角色信息路径">actorInfo/xiahouchunActorInfo.actorinfo</Cell>
+      <Cell Name="被动技能1">12600</Cell>
+      <Cell Name="技能1ID">12600</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">12610</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能3ID">12620</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">12630</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻近战类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">84</Cell>
+      <Cell Name="成长生命回复">77182</Cell>
+      <Cell Name="成长攻击速度">2000000</Cell>
+      <Cell Name="基础生命">3380</Cell>
+      <Cell Name="基础攻击力">159</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">89</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3800</Cell>
+      <Cell Name="超长位移">-1</Cell>
+      <Cell Name="攻击范围描述">近程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">3073000</Cell>
+      <Cell Name="攻击力成长率">116000</Cell>
+      <Cell Name="法强成长率">0</Cell>
+      <Cell Name="护甲成长率">187000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">前排肉盾</Cell>
+      <Cell Name="英雄定位">全能</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">1</Cell>
+      <Cell Name="主要职业">坦克</Cell>
+      <Cell Name="统计用职业">坦克</Cell>
+      <Cell Name="次要职业">战士</Cell>
+      <Cell Name="描述1">突进</Cell>
+      <Cell Name="描述2">团控</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">中排</Cell>
+      <Cell Name="生存能力">7</Cell>
+      <Cell Name="攻击伤害">4</Cell>
+      <Cell Name="技能效果">5</Cell>
+      <Cell Name="上手难度">4</Cell>
+      <Cell Name="初始装备ID1">10011</Cell>
+      <Cell Name="初始装备ID2">10012</Cell>
+      <Cell Name="初始装备ID3">10013</Cell>
+      <Cell Name="初始装备ID4">10014</Cell>
+      <Cell Name="初始装备ID5">10015</Cell>
+      <Cell Name="初始装备ID6">10016</Cell>
+      <Cell Name="英雄档次">5</Cell>
+      <Cell Name="显示屏蔽">0</Cell>
+      <Cell Name="英雄面板排序Id">81</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">0</Cell>
+      <Cell Name="能量">430</Cell>
+      <Cell Name="能量成长">94</Cell>
+      <Cell Name="能量回复">158700</Cell>
+      <Cell Name="能量回复成长">16200</Cell>
+      <Cell Name="局内小技巧">夏侯惇只有在1技能命中敌方英雄时，才能释放第二段来击飞敌人。一旦开启大招进入战场以后，立即释放护盾保护自己，避免被集火攻击。</Cell>
+      <Cell Name="符文推荐ID">105</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">1</Cell>
+      <Cell Name="归属标签">1</Cell>
+      <Cell Name="高段位平均评价分">740</Cell>
+      <Cell Name="低段位平均评价分">740</Cell>
+      <Cell Name="引导分路">分路-上路</Cell>
+      <Cell Name="推荐分路">分路-上路</Cell>
+      <Cell Name="推荐召唤师技能">斩杀</Cell>
+      <Cell Name="团战位置">团战-前排</Cell>
+      <Cell Name="Buff资源类别">红/蓝Buff</Cell>
+      <Cell Name="Buff需求类别">无需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">58</Cell>
+      <Cell Name="英雄位置偏好向量突进">21</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">0</Cell>
+      <Cell Name="英雄位置偏好向量辅助">21</Cell>
+      <Cell Name="Mvp修正值">10672</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">坚若磐石</Cell>
+      <Cell Name="逻辑图">MyBp/ComonHeroAI.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">105</Cell>
+      <Cell Name="技能1优先级">2</Cell>
+      <Cell Name="技能2优先级">1</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">1</Cell>
+      <Cell Name="自动使用铭文满级方案ID">105</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20003</Cell>
+      <Cell Name="武将名">项羽2</Cell>
+      <Cell Name="英雄头衔">霸王</Cell>
+      <Cell Name="武将名拼音">XiangYu2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_xiangyu</Cell>
+      <Cell Name="英雄描述">力拔山兮气盖世，霸王怒兮悔不逝。</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/135</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301350</Cell>
+      <Cell Name="角色信息路径">actorInfo/xiangyuActorInfo.actorinfo</Cell>
+      <Cell Name="被动技能1">13500</Cell>
+      <Cell Name="技能1ID">13500</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">13510</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能3ID">13520</Cell>
+      <Cell Name="技能3PassiveID">13520</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">13530</Cell>
+      <Cell Name="技能4PassiveID">13530</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻近战类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">76</Cell>
+      <Cell Name="成长生命回复">60082</Cell>
+      <Cell Name="成长攻击速度">0</Cell>
+      <Cell Name="基础生命">3046</Cell>
+      <Cell Name="基础攻击力">175</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">103</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3700</Cell>
+      <Cell Name="超长位移">-1</Cell>
+      <Cell Name="攻击范围描述">近程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">2399000</Cell>
+      <Cell Name="攻击力成长率">111000</Cell>
+      <Cell Name="法强成长率">0</Cell>
+      <Cell Name="护甲成长率">223000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">前排肉盾</Cell>
+      <Cell Name="英雄定位">全能</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">3</Cell>
+      <Cell Name="主要职业">坦克</Cell>
+      <Cell Name="统计用职业">坦克</Cell>
+      <Cell Name="描述1">团控</Cell>
+      <Cell Name="描述2">先手</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">前排</Cell>
+      <Cell Name="生存能力">9</Cell>
+      <Cell Name="攻击伤害">4</Cell>
+      <Cell Name="技能效果">5</Cell>
+      <Cell Name="上手难度">3</Cell>
+      <Cell Name="初始装备ID1">10011</Cell>
+      <Cell Name="初始装备ID2">10012</Cell>
+      <Cell Name="初始装备ID3">10013</Cell>
+      <Cell Name="初始装备ID4">10014</Cell>
+      <Cell Name="初始装备ID5">10015</Cell>
+      <Cell Name="初始装备ID6">10016</Cell>
+      <Cell Name="英雄档次">2</Cell>
+      <Cell Name="显示屏蔽">1</Cell>
+      <Cell Name="英雄面板排序Id">80</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">0</Cell>
+      <Cell Name="能量">420</Cell>
+      <Cell Name="能量成长">91</Cell>
+      <Cell Name="能量回复">153000</Cell>
+      <Cell Name="能量回复成长">15400</Cell>
+      <Cell Name="局内小技巧">冲锋中的项羽无法被打断，尽情的撕开敌方的阵型吧
+项羽大招范围并不很大，不要用这个大招攻击三个身位外正在逃跑的敌人</Cell>
+      <Cell Name="符文推荐ID">105</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">1</Cell>
+      <Cell Name="归属标签">1</Cell>
+      <Cell Name="高段位平均评价分">716</Cell>
+      <Cell Name="低段位平均评价分">718</Cell>
+      <Cell Name="引导分路">分路-上路</Cell>
+      <Cell Name="推荐分路">分路-上路</Cell>
+      <Cell Name="额外推荐分路1">分路-辅助</Cell>
+      <Cell Name="推荐召唤师技能">斩杀</Cell>
+      <Cell Name="团战位置">团战-前排</Cell>
+      <Cell Name="Buff资源类别">红/蓝Buff</Cell>
+      <Cell Name="Buff需求类别">无需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">70</Cell>
+      <Cell Name="英雄位置偏好向量突进">0</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">0</Cell>
+      <Cell Name="英雄位置偏好向量辅助">30</Cell>
+      <Cell Name="Mvp修正值">10879</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">坚若磐石</Cell>
+      <Cell Name="逻辑图">MyBp/ComonHeroAI.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">105</Cell>
+      <Cell Name="技能1优先级">1</Cell>
+      <Cell Name="技能2优先级">2</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">1</Cell>
+      <Cell Name="自动使用铭文满级方案ID">105</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20004</Cell>
+      <Cell Name="武将名">程咬金2</Cell>
+      <Cell Name="英雄头衔">热烈之斧</Cell>
+      <Cell Name="武将名拼音">ChengYaojin2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_chengyaojin</Cell>
+      <Cell Name="英雄描述">真男人，当然拥有强健的肌肉，身体和精神！</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/144</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301440</Cell>
+      <Cell Name="角色信息路径">actorInfo/chenyaojinActorInfo.actorinfo</Cell>
+      <Cell Name="被动技能1">14405</Cell>
+      <Cell Name="技能1ID">14400</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">14410</Cell>
+      <Cell Name="技能2PassiveID">14400</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能3ID">14420</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">14430</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻近战类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">85</Cell>
+      <Cell Name="成长生命回复">93060</Cell>
+      <Cell Name="成长攻击速度">2000000</Cell>
+      <Cell Name="基础生命">3437</Cell>
+      <Cell Name="基础攻击力">161</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">107</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3800</Cell>
+      <Cell Name="攻击范围描述">近程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">3696000</Cell>
+      <Cell Name="攻击力成长率">111000</Cell>
+      <Cell Name="法强成长率">0</Cell>
+      <Cell Name="护甲成长率">231000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">前排肉盾</Cell>
+      <Cell Name="英雄定位">全能</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">1</Cell>
+      <Cell Name="主要职业">坦克</Cell>
+      <Cell Name="统计用职业">坦克</Cell>
+      <Cell Name="次要职业">战士</Cell>
+      <Cell Name="描述1">突进</Cell>
+      <Cell Name="描述2">回复</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">前排</Cell>
+      <Cell Name="生存能力">9</Cell>
+      <Cell Name="攻击伤害">5</Cell>
+      <Cell Name="技能效果">5</Cell>
+      <Cell Name="上手难度">1</Cell>
+      <Cell Name="初始装备ID1">10011</Cell>
+      <Cell Name="初始装备ID2">10012</Cell>
+      <Cell Name="初始装备ID3">10013</Cell>
+      <Cell Name="初始装备ID4">10014</Cell>
+      <Cell Name="初始装备ID5">10015</Cell>
+      <Cell Name="初始装备ID6">10016</Cell>
+      <Cell Name="英雄档次">3</Cell>
+      <Cell Name="显示屏蔽">1</Cell>
+      <Cell Name="英雄面板排序Id">16</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">6</Cell>
+      <Cell Name="局内小技巧">程咬金在低血量下的攻击力非常夸张，尽量利用大招将程咬金在低血量下的BUFF维持造成更多的伤害
+程咬金在坦克中最强的一点是，打不过了可以跳墙跑</Cell>
+      <Cell Name="符文推荐ID">105</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">1</Cell>
+      <Cell Name="标签">新手推荐标签</Cell>
+      <Cell Name="归属标签">1</Cell>
+      <Cell Name="高段位平均评价分">735</Cell>
+      <Cell Name="低段位平均评价分">758</Cell>
+      <Cell Name="引导分路">分路-上路</Cell>
+      <Cell Name="推荐分路">分路-上路</Cell>
+      <Cell Name="推荐召唤师技能">斩杀</Cell>
+      <Cell Name="团战位置">团战-前排</Cell>
+      <Cell Name="Buff资源类别">红/蓝Buff</Cell>
+      <Cell Name="Buff需求类别">无需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">58</Cell>
+      <Cell Name="英雄位置偏好向量突进">21</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">0</Cell>
+      <Cell Name="英雄位置偏好向量辅助">21</Cell>
+      <Cell Name="Mvp修正值">10887</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">坚若磐石</Cell>
+      <Cell Name="不做实时违规检测的类型">2</Cell>
+      <Cell Name="逻辑图">MyBp/ComonHeroAI.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">105</Cell>
+      <Cell Name="技能1优先级">2</Cell>
+      <Cell Name="技能2优先级">1</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">1</Cell>
+      <Cell Name="自动使用铭文满级方案ID">105</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20005</Cell>
+      <Cell Name="武将名">张飞2</Cell>
+      <Cell Name="英雄头衔">禁血狂兽</Cell>
+      <Cell Name="武将名拼音">ZhangFei2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_ZhangFei</Cell>
+      <Cell Name="英雄描述">心有猛虎！</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/171</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301710</Cell>
+      <Cell Name="角色信息路径">actorInfo/zhangfeiActorInfo.actorinfo</Cell>
+      <Cell Name="技能1ID">17100</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">17110</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能3ID">17120</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">17130</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻近战类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">86</Cell>
+      <Cell Name="成长生命回复">87528</Cell>
+      <Cell Name="成长攻击速度">1000000</Cell>
+      <Cell Name="基础生命">3450</Cell>
+      <Cell Name="基础攻击力">153</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">125</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3800</Cell>
+      <Cell Name="攻击范围描述">近程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">3494000</Cell>
+      <Cell Name="攻击力成长率">106000</Cell>
+      <Cell Name="护甲成长率">271000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">前排肉盾</Cell>
+      <Cell Name="英雄定位">全能</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">3</Cell>
+      <Cell Name="主要职业">坦克</Cell>
+      <Cell Name="统计用职业">坦克</Cell>
+      <Cell Name="次要职业">职业辅助</Cell>
+      <Cell Name="描述1">突进</Cell>
+      <Cell Name="描述2">团控</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">前排</Cell>
+      <Cell Name="生存能力">10</Cell>
+      <Cell Name="攻击伤害">4</Cell>
+      <Cell Name="技能效果">5</Cell>
+      <Cell Name="上手难度">6</Cell>
+      <Cell Name="初始装备ID1">10011</Cell>
+      <Cell Name="初始装备ID2">10012</Cell>
+      <Cell Name="初始装备ID3">10013</Cell>
+      <Cell Name="初始装备ID4">10014</Cell>
+      <Cell Name="初始装备ID5">10015</Cell>
+      <Cell Name="初始装备ID6">10016</Cell>
+      <Cell Name="英雄档次">5</Cell>
+      <Cell Name="显示屏蔽">0</Cell>
+      <Cell Name="英雄面板排序Id">97</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">4</Cell>
+      <Cell Name="能量">100</Cell>
+      <Cell Name="能量成长">0</Cell>
+      <Cell Name="能量回复">50000</Cell>
+      <Cell Name="能量回复成长">0</Cell>
+      <Cell Name="局内小技巧">张飞只有为友军套上护盾才会增加狂意值，变身后的张飞非常恐怖不但攻击力增加还有巨额护盾，但是会失去保护友军的能力，所以为了胜利，一定要去驱赶敌人的主要输出点。</Cell>
+      <Cell Name="符文推荐ID">105</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">1</Cell>
+      <Cell Name="归属标签">1</Cell>
+      <Cell Name="高段位平均评价分">695</Cell>
+      <Cell Name="低段位平均评价分">735</Cell>
+      <Cell Name="羁绊关系1">2</Cell>
+      <Cell Name="引导分路">分路-辅助</Cell>
+      <Cell Name="推荐分路">分路-辅助</Cell>
+      <Cell Name="推荐召唤师技能">雷暴</Cell>
+      <Cell Name="团战位置">团战-前排</Cell>
+      <Cell Name="Buff资源类别">红/蓝Buff</Cell>
+      <Cell Name="Buff需求类别">无需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">49</Cell>
+      <Cell Name="英雄位置偏好向量突进">0</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">0</Cell>
+      <Cell Name="英雄位置偏好向量辅助">51</Cell>
+      <Cell Name="Mvp修正值">10871</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="是否双形态英雄">1</Cell>
+      <Cell Name="第二形态技能ID1">17100</Cell>
+      <Cell Name="第二形态技能ID2">17111</Cell>
+      <Cell Name="第二形态技能ID3">17121</Cell>
+      <Cell Name="第二形态技能ID4">17130</Cell>
+      <Cell Name="推荐天赋">坚若磐石</Cell>
+      <Cell Name="逻辑图">MyBp/ComonHeroAI.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">105</Cell>
+      <Cell Name="技能1优先级">1</Cell>
+      <Cell Name="技能2优先级">2</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">2</Cell>
+      <Cell Name="自动使用铭文满级方案ID">105</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20006</Cell>
+      <Cell Name="武将名">钟无艳2</Cell>
+      <Cell Name="英雄头衔">野蛮之锤</Cell>
+      <Cell Name="武将名拼音">ZhongWuYan2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_zhongwuyan</Cell>
+      <Cell Name="英雄描述">给你的麻烦开个价吧！</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/117</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301170</Cell>
+      <Cell Name="角色信息路径">actorInfo/ZhongwuyanActorInfo.actorinfo</Cell>
+      <Cell Name="技能1ID">11700</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">11710</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能3ID">11720</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">11730</Cell>
+      <Cell Name="技能4PassiveID">11730</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻近战类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">48</Cell>
+      <Cell Name="成长生命回复">31730</Cell>
+      <Cell Name="成长攻击速度">1000000</Cell>
+      <Cell Name="基础生命">3338</Cell>
+      <Cell Name="基础攻击力">175</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">100</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3800</Cell>
+      <Cell Name="攻击范围描述">近程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">2756000</Cell>
+      <Cell Name="攻击力成长率">128000</Cell>
+      <Cell Name="法强成长率">0</Cell>
+      <Cell Name="护甲成长率">221000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">前排肉盾</Cell>
+      <Cell Name="英雄定位">全能</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">1</Cell>
+      <Cell Name="主要职业">战士</Cell>
+      <Cell Name="统计用职业">战士</Cell>
+      <Cell Name="次要职业">坦克</Cell>
+      <Cell Name="描述1">团控</Cell>
+      <Cell Name="描述2">突进</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">前排</Cell>
+      <Cell Name="生存能力">7</Cell>
+      <Cell Name="攻击伤害">5</Cell>
+      <Cell Name="技能效果">7</Cell>
+      <Cell Name="上手难度">4</Cell>
+      <Cell Name="初始装备ID1">10031</Cell>
+      <Cell Name="初始装备ID2">10032</Cell>
+      <Cell Name="初始装备ID3">10033</Cell>
+      <Cell Name="初始装备ID4">10034</Cell>
+      <Cell Name="初始装备ID5">10035</Cell>
+      <Cell Name="初始装备ID6">10036</Cell>
+      <Cell Name="英雄档次">3</Cell>
+      <Cell Name="显示屏蔽">1</Cell>
+      <Cell Name="英雄面板排序Id">102</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">0</Cell>
+      <Cell Name="能量">430</Cell>
+      <Cell Name="能量成长">95</Cell>
+      <Cell Name="能量回复">159700</Cell>
+      <Cell Name="能量回复成长">16400</Cell>
+      <Cell Name="局内小技巧">钟无艳的石化非常不稳定，但触发后效果也非常强大，善用石化期间的优势打击敌人
+钟无艳技能整体冷却都非常的短，在紧张的团战中不要忘记使用技能哦</Cell>
+      <Cell Name="符文推荐ID">105</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">1</Cell>
+      <Cell Name="归属标签">2</Cell>
+      <Cell Name="高段位平均评价分">672</Cell>
+      <Cell Name="低段位平均评价分">722</Cell>
+      <Cell Name="引导分路">分路-上路</Cell>
+      <Cell Name="推荐分路">分路-上路</Cell>
+      <Cell Name="额外推荐分路1">分路-辅助</Cell>
+      <Cell Name="推荐召唤师技能">雷暴</Cell>
+      <Cell Name="团战位置">团战-前排</Cell>
+      <Cell Name="Buff资源类别">红/蓝Buff</Cell>
+      <Cell Name="Buff需求类别">无需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">42</Cell>
+      <Cell Name="英雄位置偏好向量突进">49</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">0</Cell>
+      <Cell Name="英雄位置偏好向量辅助">9</Cell>
+      <Cell Name="Mvp修正值">9999</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">掌控全局</Cell>
+      <Cell Name="逻辑图">MyBp/ComonHeroAI.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">105</Cell>
+      <Cell Name="技能1优先级">2</Cell>
+      <Cell Name="技能2优先级">1</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">1</Cell>
+      <Cell Name="自动使用铭文满级方案ID">105</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20007</Cell>
+      <Cell Name="武将名">典韦2</Cell>
+      <Cell Name="英雄头衔">狂战士</Cell>
+      <Cell Name="武将名拼音">DianWei2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_dianwei</Cell>
+      <Cell Name="英雄描述">沉睡的野兽，觉醒了！准备好迎接疯狂的毁灭了吗？</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/129</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301290</Cell>
+      <Cell Name="角色信息路径">actorInfo/dianweiActorInfo.actorinfo</Cell>
+      <Cell Name="技能1ID">12900</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">12910</Cell>
+      <Cell Name="技能2PassiveID">12900</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能3ID">12920</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">12930</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻近战类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">52</Cell>
+      <Cell Name="成长生命回复">33646</Cell>
+      <Cell Name="成长攻击速度">3000000</Cell>
+      <Cell Name="基础生命">3434</Cell>
+      <Cell Name="基础攻击力">168</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">89</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3900</Cell>
+      <Cell Name="普攻输出">1</Cell>
+      <Cell Name="攻击范围描述">近程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">2916000</Cell>
+      <Cell Name="攻击力成长率">127000</Cell>
+      <Cell Name="法强成长率">0</Cell>
+      <Cell Name="护甲成长率">224000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">全能战士</Cell>
+      <Cell Name="英雄定位">全能</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">1</Cell>
+      <Cell Name="主要职业">战士</Cell>
+      <Cell Name="统计用职业">战士</Cell>
+      <Cell Name="描述1">收割</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">前排</Cell>
+      <Cell Name="生存能力">6</Cell>
+      <Cell Name="攻击伤害">6</Cell>
+      <Cell Name="技能效果">3</Cell>
+      <Cell Name="上手难度">1</Cell>
+      <Cell Name="初始装备ID1">10011</Cell>
+      <Cell Name="初始装备ID2">10012</Cell>
+      <Cell Name="初始装备ID3">10013</Cell>
+      <Cell Name="初始装备ID4">10014</Cell>
+      <Cell Name="初始装备ID5">10015</Cell>
+      <Cell Name="初始装备ID6">10016</Cell>
+      <Cell Name="英雄档次">5</Cell>
+      <Cell Name="显示屏蔽">0</Cell>
+      <Cell Name="英雄面板排序Id">21</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">0</Cell>
+      <Cell Name="能量">430</Cell>
+      <Cell Name="能量成长">96</Cell>
+      <Cell Name="能量回复">161700</Cell>
+      <Cell Name="能量回复成长">16800</Cell>
+      <Cell Name="局内小技巧">团战时使用大招先手控住敌人，然后依靠强化后的攻击迅速击杀敌人。</Cell>
+      <Cell Name="符文推荐ID">101</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">1</Cell>
+      <Cell Name="归属标签">1</Cell>
+      <Cell Name="高段位平均评价分">740</Cell>
+      <Cell Name="低段位平均评价分">718</Cell>
+      <Cell Name="引导分路">分路-上路</Cell>
+      <Cell Name="推荐分路">分路-上路</Cell>
+      <Cell Name="额外推荐分路1">分路-打野</Cell>
+      <Cell Name="推荐召唤师技能">闪现</Cell>
+      <Cell Name="团战位置">团战-前排</Cell>
+      <Cell Name="Buff资源类别">红Buff</Cell>
+      <Cell Name="Buff需求类别">弱需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">30</Cell>
+      <Cell Name="英雄位置偏好向量突进">70</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">0</Cell>
+      <Cell Name="英雄位置偏好向量辅助">0</Cell>
+      <Cell Name="Mvp修正值">10140</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">原始狂野</Cell>
+      <Cell Name="逻辑图">MyBp/ComonHeroAI.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">101</Cell>
+      <Cell Name="技能1优先级">1</Cell>
+      <Cell Name="技能2优先级">2</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">2</Cell>
+      <Cell Name="自动使用铭文满级方案ID">101</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20008</Cell>
+      <Cell Name="武将名">孙尚香2</Cell>
+      <Cell Name="英雄头衔">千金重弩</Cell>
+      <Cell Name="武将名拼音">Sunshangxiang2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_sunshangxiang</Cell>
+      <Cell Name="英雄描述">大小姐驾到！轰轰烈烈来一发吧！</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/111</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301110</Cell>
+      <Cell Name="角色信息路径">actorInfo/sunshangxActorInfo.actorinfo</Cell>
+      <Cell Name="技能1ID">11100</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">11110</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能3ID">11120</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">11130</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻远程类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">40</Cell>
+      <Cell Name="成长生命回复">21267</Cell>
+      <Cell Name="成长攻击速度">3000000</Cell>
+      <Cell Name="基础生命">3235</Cell>
+      <Cell Name="基础攻击力">172</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">89</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3500</Cell>
+      <Cell Name="高频位移">-1</Cell>
+      <Cell Name="超远POKE">-1</Cell>
+      <Cell Name="攻击范围描述">远程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">1985000</Cell>
+      <Cell Name="攻击力成长率">171000</Cell>
+      <Cell Name="法强成长率">0</Cell>
+      <Cell Name="护甲成长率">184000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">AD输出</Cell>
+      <Cell Name="英雄定位">输出</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">2</Cell>
+      <Cell Name="主要职业">射手</Cell>
+      <Cell Name="统计用职业">射手</Cell>
+      <Cell Name="描述1">突进</Cell>
+      <Cell Name="描述2">收割</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">后排</Cell>
+      <Cell Name="生存能力">3</Cell>
+      <Cell Name="攻击伤害">8</Cell>
+      <Cell Name="技能效果">5</Cell>
+      <Cell Name="上手难度">6</Cell>
+      <Cell Name="初始装备ID1">10041</Cell>
+      <Cell Name="初始装备ID2">10042</Cell>
+      <Cell Name="初始装备ID3">10043</Cell>
+      <Cell Name="初始装备ID4">10044</Cell>
+      <Cell Name="初始装备ID5">10045</Cell>
+      <Cell Name="初始装备ID6">10046</Cell>
+      <Cell Name="英雄档次">3</Cell>
+      <Cell Name="显示屏蔽">1</Cell>
+      <Cell Name="英雄面板排序Id">76</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">0</Cell>
+      <Cell Name="能量">440</Cell>
+      <Cell Name="能量成长">94</Cell>
+      <Cell Name="能量回复">157300</Cell>
+      <Cell Name="能量回复成长">15500</Cell>
+      <Cell Name="局内小技巧">依靠普攻减少翻滚冷却时间灵活走位，尽量使普攻强化后的贯穿子弹攻击到更多的敌人。</Cell>
+      <Cell Name="符文推荐ID">104</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">1</Cell>
+      <Cell Name="归属标签">2</Cell>
+      <Cell Name="高段位平均评价分">793</Cell>
+      <Cell Name="低段位平均评价分">771</Cell>
+      <Cell Name="引导分路">分路-下路</Cell>
+      <Cell Name="推荐分路">分路-下路</Cell>
+      <Cell Name="推荐召唤师技能">闪现</Cell>
+      <Cell Name="团战位置">团战-后排</Cell>
+      <Cell Name="Buff资源类别">红Buff</Cell>
+      <Cell Name="Buff需求类别">强需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">0</Cell>
+      <Cell Name="英雄位置偏好向量突进">0</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">100</Cell>
+      <Cell Name="英雄位置偏好向量辅助">0</Cell>
+      <Cell Name="Mvp修正值">10433</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">原始狂野</Cell>
+      <Cell Name="逻辑图">MyBp/ComonHeroAI.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">104</Cell>
+      <Cell Name="技能1优先级">2</Cell>
+      <Cell Name="技能2优先级">1</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">1</Cell>
+      <Cell Name="自动使用铭文满级方案ID">104</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20009</Cell>
+      <Cell Name="武将名">刘禅2</Cell>
+      <Cell Name="英雄头衔">暴走机关</Cell>
+      <Cell Name="武将名拼音">LiuChan2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_liushan</Cell>
+      <Cell Name="英雄描述">蓉城是他家，老爹最伟大。二代小霸王，你值得拥有。</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/114</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301140</Cell>
+      <Cell Name="角色信息路径">actorInfo/liuchanActorInfo.actorinfo</Cell>
+      <Cell Name="技能1ID">11400</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">11410</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能3ID">11420</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">11430</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻近战类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">84</Cell>
+      <Cell Name="成长生命回复">93246</Cell>
+      <Cell Name="成长攻击速度">1000000</Cell>
+      <Cell Name="基础生命">3364</Cell>
+      <Cell Name="基础攻击力">178</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">139</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3800</Cell>
+      <Cell Name="攻击范围描述">近程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">3727000</Cell>
+      <Cell Name="攻击力成长率">84000</Cell>
+      <Cell Name="法强成长率">0</Cell>
+      <Cell Name="护甲成长率">229000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">前排肉盾</Cell>
+      <Cell Name="英雄定位">生存</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">1</Cell>
+      <Cell Name="主要职业">职业辅助</Cell>
+      <Cell Name="统计用职业">职业辅助</Cell>
+      <Cell Name="次要职业">坦克</Cell>
+      <Cell Name="描述1">团控</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">前排</Cell>
+      <Cell Name="生存能力">7</Cell>
+      <Cell Name="攻击伤害">3</Cell>
+      <Cell Name="技能效果">5</Cell>
+      <Cell Name="上手难度">3</Cell>
+      <Cell Name="初始装备ID1">10071</Cell>
+      <Cell Name="初始装备ID2">10072</Cell>
+      <Cell Name="初始装备ID3">10073</Cell>
+      <Cell Name="初始装备ID4">10074</Cell>
+      <Cell Name="初始装备ID5">10075</Cell>
+      <Cell Name="初始装备ID6">10076</Cell>
+      <Cell Name="英雄档次">2</Cell>
+      <Cell Name="显示屏蔽">1</Cell>
+      <Cell Name="英雄面板排序Id">50</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">0</Cell>
+      <Cell Name="能量">420</Cell>
+      <Cell Name="能量成长">91</Cell>
+      <Cell Name="能量回复">153000</Cell>
+      <Cell Name="能量回复成长">15400</Cell>
+      <Cell Name="局内小技巧">刘禅依靠极强的机动性与控制能力，可以很好的牵制对手。在推进时，可以释放技能攻击敌方建筑。</Cell>
+      <Cell Name="符文推荐ID">105</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">1</Cell>
+      <Cell Name="归属标签">1</Cell>
+      <Cell Name="高段位平均评价分">684</Cell>
+      <Cell Name="低段位平均评价分">720</Cell>
+      <Cell Name="引导分路">分路-辅助</Cell>
+      <Cell Name="推荐分路">分路-辅助</Cell>
+      <Cell Name="推荐召唤师技能">斩杀</Cell>
+      <Cell Name="团战位置">团战-前排</Cell>
+      <Cell Name="Buff资源类别">红/蓝Buff</Cell>
+      <Cell Name="Buff需求类别">无需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">21</Cell>
+      <Cell Name="英雄位置偏好向量突进">0</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">0</Cell>
+      <Cell Name="英雄位置偏好向量辅助">79</Cell>
+      <Cell Name="Mvp修正值">9849</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">荣耀祝福</Cell>
+      <Cell Name="逻辑图">MyBp/ComonHeroAI.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">105</Cell>
+      <Cell Name="技能1优先级">2</Cell>
+      <Cell Name="技能2优先级">1</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">1</Cell>
+      <Cell Name="自动使用铭文满级方案ID">105</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20010</Cell>
+      <Cell Name="武将名">李白2</Cell>
+      <Cell Name="英雄头衔">青莲剑仙</Cell>
+      <Cell Name="武将名拼音">LiBai2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_libai</Cell>
+      <Cell Name="英雄描述">一篇诗，一斗酒，一曲长歌，一剑天涯。</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/131</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301310</Cell>
+      <Cell Name="角色信息路径">actorInfo/libaiActorInfo.actorinfo</Cell>
+      <Cell Name="被动技能1">13100</Cell>
+      <Cell Name="技能1ID">13100</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">13110</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能3ID">13120</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">13130</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻近战类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">49</Cell>
+      <Cell Name="成长生命回复">22246</Cell>
+      <Cell Name="成长攻击速度">3000000</Cell>
+      <Cell Name="基础生命">2968</Cell>
+      <Cell Name="基础攻击力">169</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">98</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3900</Cell>
+      <Cell Name="高频位移">-1</Cell>
+      <Cell Name="攻击范围描述">近程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">1797000</Cell>
+      <Cell Name="攻击力成长率">115000</Cell>
+      <Cell Name="法强成长率">0</Cell>
+      <Cell Name="护甲成长率">186000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">AD输出</Cell>
+      <Cell Name="英雄定位">输出</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">1</Cell>
+      <Cell Name="主要职业">刺客</Cell>
+      <Cell Name="统计用职业">刺客</Cell>
+      <Cell Name="描述1">突进</Cell>
+      <Cell Name="描述2">收割</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">中排</Cell>
+      <Cell Name="生存能力">4</Cell>
+      <Cell Name="攻击伤害">7</Cell>
+      <Cell Name="技能效果">6</Cell>
+      <Cell Name="上手难度">9</Cell>
+      <Cell Name="初始装备ID1">10041</Cell>
+      <Cell Name="初始装备ID2">10042</Cell>
+      <Cell Name="初始装备ID3">10043</Cell>
+      <Cell Name="初始装备ID4">10044</Cell>
+      <Cell Name="初始装备ID5">10045</Cell>
+      <Cell Name="初始装备ID6">10046</Cell>
+      <Cell Name="英雄档次">7</Cell>
+      <Cell Name="显示屏蔽">0</Cell>
+      <Cell Name="英雄面板排序Id">43</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">0</Cell>
+      <Cell Name="能量">450</Cell>
+      <Cell Name="能量成长">97</Cell>
+      <Cell Name="能量回复">161000</Cell>
+      <Cell Name="能量回复成长">15900</Cell>
+      <Cell Name="局内小技巧">“青莲剑歌”的触发需要依赖连续对英雄的四次普通攻击，而且剑意持续时间极短，需要高度集中注意力保证每次普攻的命中
+完成被动“青莲剑歌”会引发李白的输出爆发期，请不要在爆发来临时受到控制</Cell>
+      <Cell Name="符文推荐ID">107</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">0</Cell>
+      <Cell Name="归属标签">1</Cell>
+      <Cell Name="高段位平均评价分">693</Cell>
+      <Cell Name="低段位平均评价分">742</Cell>
+      <Cell Name="引导分路">分路-打野</Cell>
+      <Cell Name="推荐分路">分路-打野</Cell>
+      <Cell Name="推荐召唤师技能">惩戒</Cell>
+      <Cell Name="团战位置">团战-侧翼</Cell>
+      <Cell Name="Buff资源类别">蓝Buff</Cell>
+      <Cell Name="Buff需求类别">弱需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">0</Cell>
+      <Cell Name="英雄位置偏好向量突进">100</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">0</Cell>
+      <Cell Name="英雄位置偏好向量辅助">0</Cell>
+      <Cell Name="Mvp修正值">10017</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">迅捷之影</Cell>
+      <Cell Name="逻辑图">MyBp/ComonHeroAI.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">107</Cell>
+      <Cell Name="技能1优先级">1</Cell>
+      <Cell Name="技能2优先级">2</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">2</Cell>
+      <Cell Name="自动使用铭文满级方案ID">107</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20100</Cell>
+      <Cell Name="武将名">成吉思汗2</Cell>
+      <Cell Name="英雄头衔">苍狼末裔</Cell>
+      <Cell Name="武将名拼音">Chengjisihan2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_Chengjisihan</Cell>
+      <Cell Name="英雄描述">驰骋草原，碎裂星辰！</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/177</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">301770</Cell>
+      <Cell Name="角色信息路径">actorInfo/20100_actorinfo.actorinfo</Cell>
+      <Cell Name="技能1ID">50005</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻远程类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">37</Cell>
+      <Cell Name="成长生命回复">21214</Cell>
+      <Cell Name="成长攻击速度">3000000</Cell>
+      <Cell Name="基础生命">3027</Cell>
+      <Cell Name="基础攻击力">500</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">300</Cell>
+      <Cell Name="基础抗性">300</Cell>
+      <Cell Name="基础移动速度">3700</Cell>
+      <Cell Name="攻击范围描述">远程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">1980000</Cell>
+      <Cell Name="攻击力成长率">150000</Cell>
+      <Cell Name="护甲成长率">168000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">AD输出</Cell>
+      <Cell Name="英雄定位">输出</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">2</Cell>
+      <Cell Name="主要职业">射手</Cell>
+      <Cell Name="统计用职业">射手</Cell>
+      <Cell Name="描述1">先手</Cell>
+      <Cell Name="描述2">收割</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">后排</Cell>
+      <Cell Name="生存能力">3</Cell>
+      <Cell Name="攻击伤害">8</Cell>
+      <Cell Name="技能效果">3</Cell>
+      <Cell Name="上手难度">5</Cell>
+      <Cell Name="初始装备ID1">10011</Cell>
+      <Cell Name="初始装备ID2">10012</Cell>
+      <Cell Name="初始装备ID3">10013</Cell>
+      <Cell Name="初始装备ID4">10014</Cell>
+      <Cell Name="初始装备ID5">10015</Cell>
+      <Cell Name="初始装备ID6">10016</Cell>
+      <Cell Name="英雄档次">3</Cell>
+      <Cell Name="显示屏蔽">0</Cell>
+      <Cell Name="英雄面板排序Id">15</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">0</Cell>
+      <Cell Name="能量">440</Cell>
+      <Cell Name="能量成长">93</Cell>
+      <Cell Name="能量回复">156300</Cell>
+      <Cell Name="能量回复成长">15300</Cell>
+      <Cell Name="局内小技巧">无论在缠斗中还是奔袭时都尽量穿过草丛，被动技能会让你风筝敌人和跑图都更有效率
+进入无视野区域时先用鹰眼探路
+开始战斗前，先在敌方逃生、追击路径上放置陷阱</Cell>
+      <Cell Name="符文推荐ID">103</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">1</Cell>
+      <Cell Name="归属标签">1</Cell>
+      <Cell Name="高段位平均评价分">679</Cell>
+      <Cell Name="低段位平均评价分">675</Cell>
+      <Cell Name="引导分路">分路-下路</Cell>
+      <Cell Name="推荐分路">分路-下路</Cell>
+      <Cell Name="推荐召唤师技能">闪现</Cell>
+      <Cell Name="团战位置">团战-后排</Cell>
+      <Cell Name="Buff资源类别">红Buff</Cell>
+      <Cell Name="Buff需求类别">强需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">0</Cell>
+      <Cell Name="英雄位置偏好向量突进">0</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">100</Cell>
+      <Cell Name="英雄位置偏好向量辅助">0</Cell>
+      <Cell Name="Mvp修正值">10201</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">原始狂野</Cell>
+      <Cell Name="逻辑图">MyBp/TowerLogic.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">103</Cell>
+      <Cell Name="技能1优先级">2</Cell>
+      <Cell Name="技能2优先级">1</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">1</Cell>
+      <Cell Name="自动使用铭文满级方案ID">103</Cell>
+    </Row>
+    <Row>
+      <Cell Name="武将ID">20101</Cell>
+      <Cell Name="武将名">猪八戒2</Cell>
+      <Cell Name="英雄头衔">无忧猛士</Cell>
+      <Cell Name="武将名拼音">ZhuBaJie2</Cell>
+      <Cell Name="英雄名语音事件">Play_bobao_ZhuBaJie</Cell>
+      <Cell Name="英雄描述">心中乾坤大，地上有西瓜</Cell>
+      <Cell Name="英雄故事链接">https://pvp.qq.com/story201904/index.html#/heroDetail/story/511</Cell>
+      <Cell Name="免责声明">英雄故事与关系纯属虚构</Cell>
+      <Cell Name="英雄图片">305110</Cell>
+      <Cell Name="角色信息路径">actorInfo/20101_actorinfo.actorinfo</Cell>
+      <Cell Name="被动技能1">51100</Cell>
+      <Cell Name="被动技能2">51110</Cell>
+      <Cell Name="被动技能3">51120</Cell>
+      <Cell Name="被动技能4">51130</Cell>
+      <Cell Name="技能1ID">51100</Cell>
+      <Cell Name="技能1解锁星级">1</Cell>
+      <Cell Name="技能2ID">51110</Cell>
+      <Cell Name="技能2解锁星级">1</Cell>
+      <Cell Name="技能3ID">51120</Cell>
+      <Cell Name="技能3解锁星级">1</Cell>
+      <Cell Name="技能4ID">51130</Cell>
+      <Cell Name="技能4解锁星级">1</Cell>
+      <Cell Name="技能6ID">90000</Cell>
+      <Cell Name="技能6解锁星级">1</Cell>
+      <Cell Name="普攻攻击距离类型">普攻近战类型</Cell>
+      <Cell Name="视野范围">7000</Cell>
+      <Cell Name="基础生命回复">85</Cell>
+      <Cell Name="成长生命回复">85953</Cell>
+      <Cell Name="成长攻击速度">1000000</Cell>
+      <Cell Name="基础生命">3302</Cell>
+      <Cell Name="基础攻击力">154</Cell>
+      <Cell Name="基础法术强度">0</Cell>
+      <Cell Name="基础护甲">89</Cell>
+      <Cell Name="基础抗性">50</Cell>
+      <Cell Name="基础移动速度">3800</Cell>
+      <Cell Name="高频位移">-1</Cell>
+      <Cell Name="普攻输出">1</Cell>
+      <Cell Name="攻击范围描述">近程</Cell>
+      <Cell Name="基础攻击速度">0</Cell>
+      <Cell Name="基础暴击率">0</Cell>
+      <Cell Name="基础暴击效果">10000</Cell>
+      <Cell Name="生命成长率">3552000</Cell>
+      <Cell Name="攻击力成长率">102000</Cell>
+      <Cell Name="护甲成长率">167000</Cell>
+      <Cell Name="抗性成长率">85000</Cell>
+      <Cell Name="初始星级">1</Cell>
+      <Cell Name="统计用职责">全能战士</Cell>
+      <Cell Name="英雄定位">全能</Cell>
+      <Cell Name="伤害类型">物理</Cell>
+      <Cell Name="扩展定位">1</Cell>
+      <Cell Name="主要职业">坦克</Cell>
+      <Cell Name="统计用职业">坦克</Cell>
+      <Cell Name="描述1">团控</Cell>
+      <Cell Name="描述2">回复</Cell>
+      <Cell Name="解锁需要英雄等级">1</Cell>
+      <Cell Name="解锁需要英雄品质">1</Cell>
+      <Cell Name="解锁需要英雄品阶">0</Cell>
+      <Cell Name="解锁需要英雄星级">1</Cell>
+      <Cell Name="推荐站位">前排</Cell>
+      <Cell Name="生存能力">7</Cell>
+      <Cell Name="攻击伤害">5</Cell>
+      <Cell Name="技能效果">5</Cell>
+      <Cell Name="上手难度">6</Cell>
+      <Cell Name="初始装备ID1">10011</Cell>
+      <Cell Name="初始装备ID2">10012</Cell>
+      <Cell Name="初始装备ID3">10013</Cell>
+      <Cell Name="初始装备ID4">10014</Cell>
+      <Cell Name="初始装备ID5">10015</Cell>
+      <Cell Name="初始装备ID6">10016</Cell>
+      <Cell Name="英雄档次">6</Cell>
+      <Cell Name="显示屏蔽">1</Cell>
+      <Cell Name="英雄面板排序Id">105</Cell>
+      <Cell Name="入门AI">WrapperAI/Hero/HeroLowAI</Cell>
+      <Cell Name="简单AI">WrapperAI/Hero/HeroSimpleAI</Cell>
+      <Cell Name="一般AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="困难AI">WrapperAI/Hero/HeroCommonAutoAI</Cell>
+      <Cell Name="温暖简单AI">WrapperAI/Hero/HeroWarmSimpleAI</Cell>
+      <Cell Name="温暖AI">WrapperAI/Hero/HeroWarmNormalAI</Cell>
+      <Cell Name="五军AI">WrapperAI/Hero/HeroFiveCampSimple</Cell>
+      <Cell Name="逃杀AI">WrapperAI/Hero/HeroTaoSha</Cell>
+      <Cell Name="觉醒描述">0</Cell>
+      <Cell Name="觉醒显示天赋ID">0</Cell>
+      <Cell Name="觉醒显示皮肤ID">0</Cell>
+      <Cell Name="能量类型">1</Cell>
+      <Cell Name="局内小技巧">不要惧怕承受伤害，但一定要在受伤后进行追击，如此反复，便可逐渐建立优势
+胖子在恰当的操作下也可十分灵活</Cell>
+      <Cell Name="符文推荐ID">105</Cell>
+      <Cell Name="出生动画">Prefab_Characters/Prefab_Hero/commonresource/Born</Cell>
+      <Cell Name="复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born</Cell>
+      <Cell Name="立即复活动画">Prefab_Characters/Prefab_Hero/commonresource/Dead_Born2</Cell>
+      <Cell Name="托管AI有效">0</Cell>
+      <Cell Name="归属标签">1</Cell>
+      <Cell Name="高段位平均评价分">685</Cell>
+      <Cell Name="低段位平均评价分">745</Cell>
+      <Cell Name="引导分路">分路-上路</Cell>
+      <Cell Name="推荐分路">分路-上路</Cell>
+      <Cell Name="额外推荐分路1">分路-辅助</Cell>
+      <Cell Name="推荐召唤师技能">斩杀</Cell>
+      <Cell Name="团战位置">团战-前排</Cell>
+      <Cell Name="Buff资源类别">红Buff</Cell>
+      <Cell Name="Buff需求类别">弱需求</Cell>
+      <Cell Name="英雄位置偏好向量坦克">50</Cell>
+      <Cell Name="英雄位置偏好向量突进">50</Cell>
+      <Cell Name="英雄位置偏好向量法师">0</Cell>
+      <Cell Name="英雄位置偏好向量射手">0</Cell>
+      <Cell Name="英雄位置偏好向量辅助">0</Cell>
+      <Cell Name="Mvp修正值">10000</Cell>
+      <Cell Name="逃杀英雄类型">2</Cell>
+      <Cell Name="推荐天赋">坚若磐石</Cell>
+      <Cell Name="海外是否屏蔽">1</Cell>
+      <Cell Name="逻辑图">MyBp/robotLogic.gl</Cell>
+      <Cell Name="英雄修炼特权符文推荐ID">105</Cell>
+      <Cell Name="技能1优先级">2</Cell>
+      <Cell Name="技能2优先级">1</Cell>
+      <Cell Name="技能3优先级">3</Cell>
+      <Cell Name="技能4优先级">0</Cell>
+      <Cell Name="一级主加技能">1</Cell>
+      <Cell Name="自动使用铭文满级方案ID">105</Cell>
+    </Row>
+  </Sheet>
+  <Sheet Name="英雄MVP参数">
+    <Columns>
+      <Column Name="英雄ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="金币修正值" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="输出英雄伤害修正值" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="承受英雄伤害修正值" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="击杀参数" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="助攻参数" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="死亡参数" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="KDA参数" Type="System.UInt32" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="英雄觉醒" FontColor="FFFFFFFF" FillColor="FF333399">
+    <Columns>
+      <Column Name="英雄ID" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="觉醒步骤" Type="System.UInt32" WidthInCharacters="10" />
+      <Column Name="觉醒标题" Type="System.String" WidthInCharacters="13" />
+      <Column Name="觉醒描述" Type="System.String" WidthInCharacters="83" />
+      <Column Name="觉醒操作" Type="System.Byte" WidthInCharacters="12" />
+      <Column Name="操作参数1" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="操作参数2" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="操作参数3" Type="System.Int32" WidthInCharacters="8" />
+      <Column Name="奖励ID" Type="System.UInt32" WidthInCharacters="8" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="英雄阵营buff" FontColor="FFFFFFFF" FillColor="FF262626">
+    <Columns>
+      <Column Name="羁绊关系ID" Type="System.UInt32" WidthInCharacters="16" />
+      <Column Name="羁绊类型" Type="System.Byte" WidthInCharacters="16" />
+      <Column Name="羁绊英雄" Type="System.UInt32" WidthInCharacters="16" />
+      <Column Name="产生buffID" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="最少触发人数" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="备注" Type="System.String" WidthInCharacters="26" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="职业属性buff">
+    <Columns>
+      <Column Name="Buff组ID" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="英雄职业类型" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="职业Buff属性1" Type="System.UInt16" WidthInCharacters="20" />
+      <Column Name="职业Buff属性1值类型" Type="System.Byte" WidthInCharacters="20" />
+      <Column Name="职业Buff属性1值" Type="System.Int32" WidthInCharacters="18" />
+      <Column Name="职业Buff属性2" Type="System.UInt16" WidthInCharacters="13" />
+      <Column Name="职业Buff属性2值类型" Type="System.Byte" WidthInCharacters="18" />
+      <Column Name="职业Buff属性2值" Type="System.Int32" WidthInCharacters="16" />
+      <Column Name="职业Buff属性3" Type="System.UInt16" WidthInCharacters="14" />
+      <Column Name="职业Buff属性3值类型" Type="System.Byte" WidthInCharacters="19" />
+      <Column Name="职业Buff属性3值" Type="System.Int32" WidthInCharacters="19" />
+      <Column Name="职业BuffID1" Type="System.Int32" WidthInCharacters="12" />
+      <Column Name="职业BuffID2" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="我方提示age路径" Type="System.String" WidthInCharacters="41" />
+      <Column Name="敌方提示age路径" Type="System.String" WidthInCharacters="37" />
+      <Column Name="提示BuffID" Type="System.Int32" WidthInCharacters="12" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="英雄属性buff">
+    <Columns>
+      <Column Name="单英雄Buff组ID" Type="System.Byte" WidthInCharacters="14" />
+      <Column Name="英雄ID" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="英雄检测" Type="System.String" WidthInCharacters="8" />
+      <Column Name="职业Buff属性1" Type="System.UInt16" WidthInCharacters="13" />
+      <Column Name="职业Buff属性1值类型" Type="System.Byte" WidthInCharacters="20" />
+      <Column Name="职业Buff属性1值" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="职业Buff属性2" Type="System.UInt16" WidthInCharacters="13" />
+      <Column Name="职业Buff属性2值类型" Type="System.Byte" WidthInCharacters="20" />
+      <Column Name="职业Buff属性2值" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="职业Buff属性3" Type="System.UInt16" WidthInCharacters="13" />
+      <Column Name="职业Buff属性3值类型" Type="System.Byte" WidthInCharacters="20" />
+      <Column Name="职业Buff属性3值" Type="System.Int32" WidthInCharacters="15" />
+      <Column Name="职业BuffID1" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="职业BuffID2" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="我方提示age路径" Type="System.String" WidthInCharacters="15" />
+      <Column Name="敌方提示age路径" Type="System.String" WidthInCharacters="15" />
+    </Columns>
+  </Sheet>
+</Root>

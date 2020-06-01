@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Schema="21.技能基础表">
+  <Sheet Name="技能基础" FontColor="FFFFFFFF" FillColor="FF44546A">
+    <Columns>
+      <Column Name="技能ID" Type="System.Int32" WidthInCharacters="11" />
+      <Column Name="技能名称" Type="System.String" WidthInCharacters="21" />
+      <Column Name="技能槽位" Type="System.String" WidthInCharacters="7" />
+      <Column Name="技能标签" Type="System.String" WidthInCharacters="11" />
+      <Column Name="技能描述" Type="System.String" WidthInCharacters="58" />
+      <Column Name="技能描述(该列战斗祖策划填写，公式列将由填写值计算出技能描述)" Type="System.String" WidthInCharacters="99" />
+      <Column Name="技能描述（公式计算）" Type="System.String" WidthInCharacters="60" />
+      <Column Name="管理界面技能描述" Type="System.String" WidthInCharacters="51" />
+      <Column Name="简化版技能描述" Type="System.String" WidthInCharacters="41" />
+      <Column Name="图标路径" Type="System.String" WidthInCharacters="12" />
+      <Column Name="模型路径" Type="System.String" WidthInCharacters="12" />
+      <Column Name="描述属性1类型" Type="System.String" WidthInCharacters="8" />
+      <Column Name="描述属性1数值类型" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="描述属性1基础值" Type="System.String" WidthInCharacters="13" />
+      <Column Name="描述属性1成长值" Type="System.String" WidthInCharacters="13" />
+      <Column Name="描述属性2类型" Type="System.String" WidthInCharacters="8" />
+      <Column Name="描述属性2数值类型" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="描述属性2基础值" Type="System.String" WidthInCharacters="12" />
+      <Column Name="描述属性2成长值" Type="System.String" WidthInCharacters="12" />
+      <Column Name="描述属性3类型" Type="System.String" WidthInCharacters="8" />
+      <Column Name="描述属性3数值类型" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="描述属性3基础值" Type="System.String" WidthInCharacters="12" />
+      <Column Name="描述属性3成长值" Type="System.String" WidthInCharacters="12" />
+      <Column Name="描述属性4类型" Type="System.String" WidthInCharacters="8" />
+      <Column Name="描述属性4数值类型" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="描述属性4基础值" Type="System.String" WidthInCharacters="8" />
+      <Column Name="描述属性4成长值" Type="System.String" WidthInCharacters="8" />
+      <Column Name="描述属性5类型" Type="System.String" WidthInCharacters="8" />
+      <Column Name="描述属性5数值类型" Type="System.UInt32" WidthInCharacters="8" />
+      <Column Name="描述属性5基础值" Type="System.String" WidthInCharacters="8" />
+      <Column Name="描述属性5成长值" Type="System.String" WidthInCharacters="8" />
+      <Column Name="轮盘模式" Type="System.Byte" WidthInCharacters="8" />
+      <Column Name="指示器已召唤兽为中心" Type="System.Byte" WidthInCharacters="33" />
+      <Column Name="二阶指示器资源类型" Type="System.Byte" WidthInCharacters="20" />
+      <Column Name="二阶指示器半径" Type="System.Int32" WidthInCharacters="24" />
+      <Column Name="二阶指示器参数1" Type="System.Int32" WidthInCharacters="30" />
+      <Column Name="新配置指示器资源类型" Type="System.String" WidthInCharacters="28" />
+      <Column Name="新配置指示器尺寸" Type="System.Int32" WidthInCharacters="20" />
+      <Column Name="新配置指示器对象类型" Type="System.String" WidthInCharacters="14" />
+      <Column Name="固有技能指示器路径" Type="System.String" WidthInCharacters="24" />
+      <Column Name="固有技能警示指示器路径" Type="System.String" WidthInCharacters="28" />
+      <Column Name="技能指示器样式选择" Type="System.Byte" WidthInCharacters="26" />
+      <Column Name="技能指示器路径" Type="System.String" WidthInCharacters="71" />
+      <Column Name="技能警示指示器路径" Type="System.String" WidthInCharacters="75" />
+      <Column Name="技能作用路径" Type="System.String" WidthInCharacters="65" />
+      <Column Name="技能警示作用路径" Type="System.String" WidthInCharacters="76" />
+      <Column Name="小地图指示器显示图" Type="System.String" WidthInCharacters="20" />
+      <Column Name="小地图指示器警示图" Type="System.String" WidthInCharacters="20" />
+      <Column Name="小地图指示器高度" Type="System.Int32" WidthInCharacters="20" />
+      <Column Name="大地图指示器高度" Type="System.Int32" WidthInCharacters="20" />
+      <Column Name="是否共存释放" Type="System.Byte" WidthInCharacters="13" />
+      <Column Name="是否可被共存技能打断" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="忽略技能禁用" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="忽略失控" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="冷却时间" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="age立即执行" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="是否自动扣除能量" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="冷却时间成长" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="消耗类型" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="消耗数值类型" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="消耗" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="消耗成长" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="技能目标过滤" Type="System.UInt32" WidthInCharacters="18" />
+      <Column Name="技能目标过滤屏蔽怪物子类型" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="技能目标过滤屏蔽塔子类型" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="技能类型" Type="System.String" WidthInCharacters="9" />
+      <Column Name="技能释放规则" Type="System.String" WidthInCharacters="18" />
+      <Column Name="技能筛选规则" Type="System.String" WidthInCharacters="18" />
+      <Column Name="技能筛选关联BUFF" Type="System.UInt32" WidthInCharacters="18" />
+      <Column Name="动作路径" Type="System.String" WidthInCharacters="77" TypeInfo="BluePrint.Common.ComponentModel.ResourceSelectableAttribute(Extension:.xml,TypeDescription:AGE文件)" />
+      <Column Name="自身技能效果组合" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="目标技能效果组合" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="范围自指定类型" Type="System.String" WidthInCharacters="9" />
+      <Column Name="范围自指定类型参数1" Type="System.String" WidthInCharacters="17" />
+      <Column Name="范围自指定类型参数2" Type="System.Int32" WidthInCharacters="17" />
+      <Column Name="指示器类型" Type="System.String" WidthInCharacters="24" />
+      <Column Name="范围半径" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="目标包含自身" Type="System.String" WidthInCharacters="13" />
+      <Column Name="目标包含敌方" Type="System.String" WidthInCharacters="9" />
+      <Column Name="基础伤害" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="固有指示器范围" Type="System.Int32" WidthInCharacters="10" />
+      <Column Name="指示器范围" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="最大攻击距离" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="二级攻击距离" Type="System.Int32" WidthInCharacters="14" />
+      <Column Name="最大寻敌距离" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="最大寻敌距离成长系数" Type="System.Int32" WidthInCharacters="30" />
+      <Column Name="最大追击距离" Type="System.Int32" WidthInCharacters="14" />
+      <Column Name="是否子弹技" Type="System.String" WidthInCharacters="12" />
+      <Column Name="子弹技ID" Type="System.String" WidthInCharacters="9" />
+      <Column Name="技能数值效果描述" Type="System.String" WidthInCharacters="25" />
+      <Column Name="技能升级提示" Type="System.String" WidthInCharacters="25" />
+      <Column Name="技能战力类型" Type="System.String" WidthInCharacters="15" />
+      <Column Name="是否检测反作弊" Type="System.String" WidthInCharacters="9" />
+      <Column Name="技能效果标签1" Type="System.String" WidthInCharacters="12" />
+      <Column Name="技能效果标签2" Type="System.String" WidthInCharacters="12" />
+      <Column Name="是否晕眩技能" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="攻速不影响动画" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="技能不暴露视野" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="伤害数字显示" Type="System.String" WidthInCharacters="9" />
+      <Column Name="本阵营共享技能组ID" Type="System.UInt32" WidthInCharacters="21" />
+      <Column Name="玩家英雄共享技能组ID" Type="System.UInt32" WidthInCharacters="21" />
+      <Column Name="蓄力效果ID" Type="System.UInt32" WidthInCharacters="21" />
+      <Column Name="蓄力结束效果ID" Type="System.UInt32" WidthInCharacters="21" />
+      <Column Name="蓄力时间上限" Type="System.UInt32" WidthInCharacters="14" />
+      <Column Name="蓄力解除时间" Type="System.UInt32" WidthInCharacters="16" />
+      <Column Name="蓄力解除时依然施放" Type="System.Byte" WidthInCharacters="16" />
+      <Column Name="技能释放角度偏差" Type="System.UInt32" WidthInCharacters="15" />
+      <Column Name="技能指示器方向控制移动" Type="System.Byte" WidthInCharacters="24" />
+      <Column Name="蓄力取消CD万分比" Type="System.UInt32" WidthInCharacters="21" />
+      <Column Name="蓄力增长冷却时间最小万分比" Type="System.UInt32" WidthInCharacters="21" />
+      <Column Name="蓄力时同步技能指示器位置" Type="System.Byte" WidthInCharacters="21" />
+      <Column Name="是否消耗技能豆" Type="System.Byte" WidthInCharacters="15" />
+      <Column Name="同槽位打断" Type="System.Byte" WidthInCharacters="9" />
+      <Column Name="开始移动镜头距离" Type="System.Int32" WidthInCharacters="9" />
+      <Column Name="技能镜头移动速度" Type="System.UInt32" WidthInCharacters="15" />
+      <Column Name="用途类型" Type="System.String" WidthInCharacters="9" />
+      <Column Name="是否忽略使用技能被动条件" Type="System.Byte" WidthInCharacters="19" />
+    </Columns>
+  </Sheet>
+  <Sheet Name="技能解锁" FontColor="FFFFFFFF" FillColor="FF44546A">
+    <Columns>
+      <Column Name="玩家等级" Type="System.UInt16" WidthInCharacters="18" />
+      <Column Name="解锁技能ID" Type="System.UInt32" WidthInCharacters="20" />
+      <Column Name="被动技能ID1" Type="System.UInt32" WidthInCharacters="13" />
+      <Column Name="被动技能ID2" Type="System.UInt32" WidthInCharacters="9" />
+      <Column Name="被动技能ID3" Type="System.UInt32" WidthInCharacters="16" />
+      <Column Name="介绍视频链接" Type="System.String" WidthInCharacters="122" />
+    </Columns>
+  </Sheet>
+</Root>
